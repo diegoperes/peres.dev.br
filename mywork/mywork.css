@@ -506,6 +506,11 @@ section[id] {
   color: var(--text-muted);
 }
 
+.duvidas__suporte {
+  margin: 2rem 0 0;
+  color: var(--text-muted);
+}
+
 /* Análises e relatórios */
 .duo {
   display: grid;
