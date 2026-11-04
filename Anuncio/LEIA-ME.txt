@@ -1,0 +1,5 @@
+Anúncio do MyWork no Mercado Livre
+
+- titulo.txt: três opções de título (até 60 caracteres). Use o primeiro.
+- descricao.txt: texto para colar em "Descrição". Não tem links, telefone, e-mail nem site, que o Mercado Livre não aceita.
+- 01 a 07 .png: imagens 1200 x 1200, nessa ordem. A 01 é a capa.
