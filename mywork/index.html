@@ -524,19 +524,42 @@
                     atende qualquer autônomo ou pequeno negócio.</p>
             </details>
             <p id="suporte" class="duvidas__suporte">Outra dúvida ou algum problema? Escreva para o suporte:
-                <a href="mailto:contato@peres.dev.br">contato@peres.dev.br</a></p>
+                <a href="#" class="email-reveal" data-email-trigger="show">clique para ver o e-mail</a></p>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container">
-            <p>MyWork · Feito por <a href="https://www.diegoperes.com.br/">Diego Peres</a> · Suporte: <a
-                    href="mailto:contato@peres.dev.br">contato@peres.dev.br</a> · © <span id="year"></span>
+            <p>MyWork · Feito por <a href="https://www.diegoperes.com.br/">Diego Peres</a> · Suporte: <a href="#"
+                    class="email-reveal" data-email-trigger="show">clique para ver o e-mail</a> · © <span id="year"></span>
             </p>
         </div>
     </footer>
 
+    <!--
+        Proteção simples contra coleta automática de e-mail: o endereço não fica no HTML nem no repositório. O
+        workflow de publicação grava em site-config.js (variável EMAIL do repositório) e ele só aparece depois do
+        clique (ou ao imprimir).
+    -->
+    <script src="site-config.js"></script>
     <script>
+        // E-mail de suporte: revelado no clique; depois disso o link vira um mailto: normal.
+        (function () {
+            const email = ((window.SITE_CONFIG || {}).email || '').trim();
+            const links = document.querySelectorAll('[data-email-trigger="show"]');
+            const revelar = el => {
+                el.textContent = email;
+                el.href = 'mailto:' + email + '?subject=MyWork';
+                el.classList.add('is-revealed');
+            };
+            links.forEach(el => el.addEventListener('click', ev => {
+                if (el.classList.contains('is-revealed')) return;
+                ev.preventDefault();
+                if (!email) return;
+                links.forEach(revelar);
+            }));
+            window.addEventListener('beforeprint', () => { if (email) links.forEach(revelar); });
+        })();
         document.getElementById('year').textContent = new Date().getFullYear();
         // "Saiba mais" abre a pergunta sobre a guarda dos dados
         document.querySelectorAll('a[href="#duvidas-dados"]').forEach(l =>

@@ -35,8 +35,27 @@ jobs:
             --exclude '.git' --exclude '.github' --exclude '_site' \
             --exclude 'Anuncio' --exclude 'assets' --exclude 'README.md' --exclude '.DS_Store' --exclude '.gitignore'
           test -f _site/CNAME
+          test -f _site/mywork/site-config.js
           test -f _site/mywork/2026/versao.json
           ls -R _site | head -50
+
+      # E-mail de suporte: vem da variável (ou secret) EMAIL do repositório e só existe no site publicado.
+      - name: Prepare site with repository variables
+        env:
+          EMAIL: ${{ vars.EMAIL || secrets.EMAIL }}
+        run: |
+          python3 <<'PY'
+          import json, os
+          from pathlib import Path
+
+          email = os.environ.get("EMAIL", "").strip()
+          if not email:
+              raise SystemExit("Missing GitHub Actions variable or secret: EMAIL")
+          Path("_site/mywork/site-config.js").write_text(
+              "window.SITE_CONFIG = {\n  email: " + json.dumps(email) + ",\n};\n",
+              encoding="utf-8",
+          )
+          PY
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
