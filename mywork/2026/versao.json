@@ -1,23 +1,23 @@
 {
   "edicao": "2026",
-  "versao": "26.11.4.3",
+  "versao": "26.11.4.4",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2026-v26.11.4.3/MyWork-2026-Mac-AppleSilicon.dmg",
-      "sha256": "634c612ee92a4dfb5255cd9a404271fb82dec111747d80ae63b79fe1bc7f8503"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2026-v26.11.4.4/MyWork-2026-Mac-AppleSilicon.dmg",
+      "sha256": "543161831b67cc964a4a24681220244bc98a9fd4f264d1f15263919300c53286"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2026-v26.11.4.3/MyWork-2026-Mac-Intel.dmg",
-      "sha256": "ca9394201ecc96a4367b112b8f66da68eccb80cc7844cc0bd6de3664715e25f8"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2026-v26.11.4.4/MyWork-2026-Mac-Intel.dmg",
+      "sha256": "cf3c9a260fd3237c99b6f4dedbadf8dbeeb06b16edb427fe1799559df8bf30e7"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2026-v26.11.4.3/MyWork-2026-Windows.exe",
-      "sha256": "92e53762d944905b8fe4ec9ba14098ccffc929ae0d06cc381bc0ffb89dcb9ceb"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2026-v26.11.4.4/MyWork-2026-Windows.exe",
+      "sha256": "677dd65e094f4aa72e50a046b71a393c674c391c0f0e9b7b7eb9d48847b404c7"
     }
   ],
-  "assinatura": "eVt4g_O-Z5e6iUrK_vYJvk6VR_rGFOkv63JKWKQxbdKqriQC76ZKjAeF_LANoRRpNiiapX9KDKFP0jHC_kqjBQ"
+  "assinatura": "Wx5Qh7I0ghAn9s4IEnD21XYIkronNrDvuiTWaLx-D1DOD2QTvxYrhQH2IuWeSV3i0ZDB9EKJi8zPl55kWz34DQ"
 }
