@@ -1,13 +1,13 @@
 # peres.dev.br
 
-Site publicado via GitHub Pages em https://peres.dev.br.
+Site publicado via GitHub Pages em https://www.peres.dev.br.
 
-- `index.html`: redireciona peres.dev.br para a página do MyWork (`/mywork/`).
+- `index.html`: redireciona www.peres.dev.br para a página do MyWork (`/mywork/`).
 - `css/style.css`: estilo base do site.
 
 ## MyWork (`mywork/`)
 
-Página do programa em https://peres.dev.br/mywork/.
+Página do programa em https://www.peres.dev.br/mywork/.
 
 - `mywork/index.html` e `mywork/mywork.css`: página (usa `css/style.css` e troca o destaque pelo azul do app). Procure por `EDITAR`.
 - `mywork/img/`: prints e ícone.
