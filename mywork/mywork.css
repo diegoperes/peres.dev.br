@@ -55,6 +55,28 @@ section[id] {
   border-color: var(--accent);
 }
 
+/* Comprar: amarelo do Mercado Livre, para se destacar do "Baixar" */
+.btn--comprar {
+  background: #ffe600;
+  color: #2d3277;
+}
+
+.topo__acoes {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.como__comprar,
+.baixar__comprar {
+  margin: 1.5rem 0 0;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.baixar__comprar .btn {
+  margin-left: 0.5rem;
+}
+
 /* Hero */
 .mw-hero {
   padding: 4.5rem 0 3rem;
