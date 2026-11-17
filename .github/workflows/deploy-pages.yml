@@ -37,6 +37,7 @@ jobs:
           test -f _site/CNAME
           test -f _site/mywork/site-config.js
           test -f _site/mywork/2026/versao.json
+          test -f _site/meuscarros/index.html
           ls -R _site | head -50
 
       # E-mail de suporte: vem da variável (ou secret) EMAIL do repositório e só existe no site publicado.
