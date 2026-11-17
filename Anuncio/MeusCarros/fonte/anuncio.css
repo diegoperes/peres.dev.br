@@ -1,0 +1,49 @@
+/* Imagens do anúncio do Meus Carros 2027 (1200 x 1200), no mesmo molde das do MyWork, com o laranja do Meus Carros. */
+@font-face { font-family: Inter; font-weight: 400; src: url(fonts/Inter-400.ttf); }
+@font-face { font-family: Inter; font-weight: 500; src: url(fonts/Inter-500.ttf); }
+@font-face { font-family: Inter; font-weight: 600; src: url(fonts/Inter-600.ttf); }
+@font-face { font-family: Inter; font-weight: 700; src: url(fonts/Inter-700.ttf); }
+@font-face { font-family: Inter; font-weight: 800; src: url(fonts/Inter-800.ttf); }
+
+:root {
+  --tinta: #172036;
+  --suave: #4b5870;
+  --laranja: #e8590c;
+  --laranja-claro: #fff1e8;
+  --faixa: #1f2f4d;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  width: 1200px; height: 1200px; overflow: hidden; position: relative;
+  font-family: Inter, system-ui, sans-serif; color: var(--tinta); background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.pagina { padding: 80px 80px 0; }
+h1 { font-size: 64px; line-height: 1.05; letter-spacing: -0.03em; font-weight: 800; margin: 0; }
+h1 em { font-style: normal; color: var(--laranja); display: block; }
+h1 em.junto { display: inline; }
+.sub { font-size: 30px; line-height: 1.32; color: var(--suave); margin: 22px 0 0; }
+.marca { display: flex; align-items: center; gap: 18px; font-size: 46px; font-weight: 800; letter-spacing: -0.02em; margin-bottom: 44px; }
+.marca img { width: 66px; height: 66px; }
+
+.checks { list-style: none; padding: 0; margin: 40px 0 0; display: grid; gap: 20px; }
+.checks li { position: relative; padding-left: 50px; font-size: 29px; line-height: 1.25; }
+.checks li::before {
+  content: ""; position: absolute; left: 0; top: 2px; width: 32px; height: 32px; border-radius: 50%;
+  background: var(--laranja) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.3l2.6 2.6L12 5.5' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E") center/20px no-repeat;
+}
+
+.faixa {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 110px; background: var(--faixa); color: #fff;
+  display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: 600; letter-spacing: -0.01em;
+}
+.faixa b { color: #ffb36b; font-weight: 800; margin: 0 .3em; }
+
+/* print do programa com borda e sombra, cortado pela borda da imagem */
+.print { position: absolute; border-radius: 14px; overflow: hidden; border: 1px solid #dfe3ea; box-shadow: 0 24px 60px rgba(23, 32, 54, .18); background: #f4f5f7; }
+.print img { display: block; width: 100%; }
+
+.cartoes { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 30px; margin-top: 44px; }
+.cartoes div { background: #f5f7fb; border-radius: 16px; padding: 22px 26px; font-size: 29px; font-weight: 600; display: flex; align-items: center; gap: 16px; line-height: 1.2; }
+.cartoes div::before { content: ""; width: 12px; height: 12px; flex: none; border-radius: 50%; background: var(--laranja); }

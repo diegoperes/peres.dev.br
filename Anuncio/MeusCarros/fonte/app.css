@@ -1,0 +1,112 @@
+/* Telas do Meus Carros 2027 recriadas em HTML (mesmas cores, textos e colunas do programa: src/MyWork.App/Views/Garagem).
+   Cada tela tem 1000 x 620 e é gerada em PNG por gerar.sh. */
+@font-face { font-family: Inter; font-weight: 400; src: url(fonts/Inter-400.ttf); }
+@font-face { font-family: Inter; font-weight: 500; src: url(fonts/Inter-500.ttf); }
+@font-face { font-family: Inter; font-weight: 600; src: url(fonts/Inter-600.ttf); }
+@font-face { font-family: Inter; font-weight: 700; src: url(fonts/Inter-700.ttf); }
+@font-face { font-family: Inter; font-weight: 800; src: url(fonts/Inter-800.ttf); }
+
+:root {
+  --lateral: #1d314e;
+  --lateral-ativo: #1e4580;
+  --lateral-sep: #273a56;
+  --lateral-texto: #e3e7ee;
+  --lateral-suave: #8e9bb0;
+  --fundo: #f4f5f7;
+  --borda: #e6e9ed;
+  --texto: #1d232b;
+  --suave: #5f6b7a;
+  --primaria: #1f6feb;
+  --sucesso: #1a7f37;
+  --erro: #cf222e;
+  --trilho: #eef0f3;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  font-family: Inter, system-ui, sans-serif;
+  color: var(--texto);
+  font-size: 12.5px;
+  -webkit-font-smoothing: antialiased;
+  background: var(--fundo);
+}
+
+.app { display: flex; width: 1000px; height: 620px; overflow: hidden; background: var(--fundo); }
+
+/* ---------- menu lateral ---------- */
+.lateral {
+  width: 186px; flex: none; background: var(--lateral); color: var(--lateral-texto);
+  display: flex; flex-direction: column; padding: 12px 8px 8px;
+}
+.marca { display: flex; gap: 8px; align-items: center; padding: 2px 6px 12px; }
+.marca img { width: 30px; height: 30px; border-radius: 7px; }
+.marca b { display: block; white-space: nowrap; font-size: 13px; font-weight: 600; color: #fff; }
+.marca small { display: block; font-size: 10px; color: #b8c1cf; }
+.item { display: flex; align-items: center; gap: 9px; padding: 6px 8px; border-radius: 6px; font-size: 12px; color: var(--lateral-texto); }
+.item svg { width: 13px; height: 13px; flex: none; fill: currentColor; opacity: .9; }
+.item kbd { margin-left: auto; font: 9.5px Inter, sans-serif; color: var(--lateral-suave); }
+.item.ativo { background: var(--lateral-ativo); color: #fff; font-weight: 600; }
+.item.ativo kbd { color: #c9d6ea; }
+.sep { height: 1px; background: var(--lateral-sep); margin: 6px 8px; }
+.espaco { flex: 1; }
+.backup small { display: block; white-space: nowrap; padding: 0 8px 6px 30px; font-size: 9.5px; color: #b8c1cf; margin-top: -3px; }
+.licenca { background: #24395a; border-radius: 6px; padding: 7px 9px; font-size: 9.5px; line-height: 1.45; color: #cfd6e1; }
+.licenca b { color: #fff; font-weight: 600; }
+.sobre { font-size: 9.5px; color: #b8c1cf; padding: 8px 8px 0; }
+
+/* ---------- área da tela ---------- */
+.principal { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.conteudo { flex: 1; padding: 20px 26px 0; overflow: hidden; }
+.status {
+  height: 22px; flex: none; background: #fff; border-top: 1px solid var(--borda);
+  display: flex; align-items: center; justify-content: space-between; padding: 0 12px;
+  font-size: 9.5px; color: var(--suave);
+}
+
+.topo { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }
+.titulo { display: flex; align-items: center; gap: 8px; font-size: 18px; font-weight: 600; }
+.titulo svg { width: 18px; height: 18px; fill: var(--primaria); }
+.subtitulo { color: var(--suave); margin-top: 3px; }
+.direita { margin-left: auto; display: flex; gap: 8px; }
+
+.btn { display: inline-block; padding: 6px 12px; border-radius: 6px; border: 1px solid #d5dae1; background: #fff; font-weight: 500; font-size: 12px; white-space: nowrap; }
+.btn.primario { background: var(--primaria); border-color: var(--primaria); color: #fff; }
+.link { color: var(--primaria); font-weight: 500; }
+
+.segmentado { display: inline-flex; background: #e9ecf0; border-radius: 8px; padding: 3px; margin-bottom: 14px; }
+.segmentado span { padding: 5px 12px; border-radius: 6px; color: var(--suave); font-weight: 500; }
+.segmentado span.ativo { background: #fff; color: var(--texto); box-shadow: 0 1px 2px rgba(16, 24, 40, .12); }
+
+.cartao { background: #fff; border: 1px solid var(--borda); border-radius: 8px; box-shadow: 0 1px 3px rgba(16, 24, 40, .06); padding: 14px 16px; }
+.h2 { font-size: 14px; font-weight: 600; margin: 0 0 8px; }
+.dica { font-size: 11px; color: var(--suave); }
+.erro { color: var(--erro); }
+.suave { color: var(--suave); }
+.forte { font-weight: 600; }
+.medio { font-weight: 500; }
+
+/* tabelas */
+.tabela { padding: 0; overflow: hidden; }
+.tabela .cab, .tabela .lin { display: grid; align-items: center; padding: 9px 14px; gap: 10px; }
+.tabela .cab { background: #fafbfc; border-bottom: 1px solid var(--borda); font-size: 9.5px; font-weight: 600; letter-spacing: .04em; color: var(--suave); padding-block: 8px; }
+.tabela .lin { border-bottom: 1px solid #f0f2f5; }
+.tabela .lin:last-child { border-bottom: 0; }
+.tabela small { display: block; font-size: 11px; color: var(--suave); margin-top: 2px; }
+.num { text-align: right; }
+
+.etiqueta { display: inline-block; font-size: 10px; font-weight: 600; padding: 1px 7px; border-radius: 9px; margin-left: 6px; vertical-align: 1px; }
+.etiqueta.inativo { background: #eef0f3; color: var(--suave); }
+.etiqueta.aviso { background: #fdecee; color: var(--erro); }
+
+/* campos */
+.campos { display: grid; gap: 10px 12px; }
+.rotulo { font-size: 10.5px; font-weight: 500; color: var(--suave); margin-bottom: 4px; }
+.caixa { border: 1px solid #d5dae1; border-radius: 6px; padding: 6px 9px; background: #fff; min-height: 29px; }
+.caixa.dir { text-align: right; }
+.caixa.vazio { color: #9aa3ae; }
+.marcado::before { content: ""; display: inline-block; width: 13px; height: 13px; border-radius: 3px; background: var(--primaria) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3.5 8.5l3 3 6-7' fill='none' stroke='white' stroke-width='2.2'/%3E%3C/svg%3E") center/11px no-repeat; vertical-align: -2px; margin-right: 6px; }
+.desmarcado::before { content: ""; display: inline-block; width: 13px; height: 13px; border-radius: 3px; border: 1px solid #b9c0ca; background: #fff; vertical-align: -2px; margin-right: 6px; box-sizing: border-box; }
+
+.linhas > div { display: flex; justify-content: space-between; padding: 4px 0; }
+.linhas > div.total { border-top: 1px solid var(--borda); margin-top: 4px; padding-top: 8px; font-weight: 700; }

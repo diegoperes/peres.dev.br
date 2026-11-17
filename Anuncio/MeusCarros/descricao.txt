@@ -1,0 +1,62 @@
+MEUS CARROS 2027: SEUS CARROS EM DIA, NUM SÓ LUGAR
+
+Programa para quem cuida dos próprios carros, do carro do dia a dia aos antigos e de coleção. Anote abastecimentos, serviços, peças e documentos: o programa avisa a troca de óleo, correias e fluidos pelo km ou pela data, calcula o consumo e mostra quanto cada carro já custou. Instalado no seu computador, sem mensalidade.
+
+FUNCIONA NO WINDOWS E NO MAC
+- Windows 10 (versão 1607 ou mais nova) e Windows 11, 64 bits
+- macOS 12 Monterey ou mais novo (Apple Silicon e Intel)
+- 4 GB de memória (RAM), 300 MB livres no disco e tela de pelo menos 1024 x 768
+- Funciona sem internet
+
+SUA GARAGEM
+- Quantos carros quiser, com km, consumo, total investido e manutenções chegando
+- Ficha de cada carro: marca, modelo, anos, cor, placa, chassi, Renavam, compra e km
+- Observações para o que importa: placa preta, motor original, restauração, histórico do dono anterior
+- Vendeu? O carro sai da garagem e o histórico continua
+
+MANUTENÇÕES COM AVISO
+- Pelo km, pela data ou pelos dois (o que vencer primeiro)
+- Aviso 500 km ou 30 dias antes, na ficha do carro e na tela de início
+- Sugestões prontas para ajustar ao manual: óleo, filtros, correias, fluidos, velas, alinhamento e revisão
+- Anotou o serviço? As manutenções feitas recomeçam a contar sozinhas
+
+HISTÓRICO COMPLETO
+- Serviços e revisões com mão de obra e peças (marca, código, quantidade e valor)
+- Peças, acessórios, IPVA, licenciamento, multas, seguro, lavagem e estética
+- Data, km e onde foi feito em cada registro
+
+ABASTECIMENTOS E CONSUMO
+- Litros, valor, combustível e posto
+- Consumo calculado de um tanque cheio até o outro
+- Gasolina, etanol, diesel e GNV
+
+QUANTO CADA CARRO JÁ CUSTOU
+- Compra, serviços, peças e acessórios, documentos e seguro, estética, combustível e juros
+- Total investido, custo por km, consumo médio e, se vendido, quanto sobrou
+- Financiamento: as parcelas viram contas a pagar, com pagas, saldo, próxima e juros
+
+FINANCEIRO E RELATÓRIOS
+- Tudo o que você anota entra no caixa, separado por carro
+- Contas a pagar e a receber, orçamento do mês e gráficos
+- Relatórios em PDF ou planilha do Excel
+
+SEUS DADOS FICAM NO SEU COMPUTADOR
+- Nada vai para a internet e ninguém mais tem uma cópia dos seus dados
+- Cópia de segurança automática todo dia e antes de cada atualização, e backup com um clique para pen drive ou nuvem
+- Importante: as cópias automáticas ficam no mesmo computador. Guardar uma cópia de segurança num lugar seguro fora dele (pen drive, HD externo ou nuvem) é responsabilidade de quem usa o programa.
+- O programa avisa quando sai versão nova e se atualiza com um clique
+
+COMO FUNCIONA A COMPRA
+1. Compre por aqui.
+2. Você recebe o link para baixar o programa e a sua chave de ativação do Meus Carros 2027 pelas mensagens da compra.
+3. Instale, digite a chave e pronto. A licença fica vinculada ao seu CPF.
+
+O QUE A COMPRA INCLUI
+- O Meus Carros 2027, com as atualizações de correção e ajuste desta edição
+- A edição do próximo ano (Meus Carros 2028) é um produto novo, vendido à parte, e não vem com esta compra
+- O Meus Carros é um programa separado do MyWork: a chave de um não ativa o outro, e os dois podem ficar instalados no mesmo computador
+
+Antes de ativar, dá para instalar e testar o programa em modo de demonstração.
+
+DÚVIDAS
+Pergunte aqui no anúncio antes de comprar. Depois da compra, fale com a gente pelas mensagens do pedido.

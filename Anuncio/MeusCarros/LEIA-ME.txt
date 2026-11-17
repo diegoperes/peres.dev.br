@@ -1,0 +1,8 @@
+Anúncio do Meus Carros 2027 no Mercado Livre
+
+- titulo.txt: três opções de título (até 60 caracteres). Use o primeiro.
+- descricao.txt: texto para colar em "Descrição". Não tem links, telefone, e-mail nem site, que o Mercado Livre não aceita.
+- 01 a 09 .png: imagens 1200 x 1200, nessa ordem. A 01 é a capa.
+- fonte/: de onde saem as imagens. As telas do programa são recriadas em HTML (tela-*.html, com os textos e as
+  colunas de verdade) e as imagens do anúncio são anuncio-*.html. Para gerar tudo de novo (também os prints e os
+  ícones do site, em meuscarros/img/): Anuncio/MeusCarros/fonte/gerar.sh (precisa do Google Chrome).

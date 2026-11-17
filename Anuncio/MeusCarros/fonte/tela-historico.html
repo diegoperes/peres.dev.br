@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="app.css">
+<style>
+  .pecas .cab, .pecas .lin { display: grid; grid-template-columns: 2fr 1fr 1fr 52px 96px 96px 16px; gap: 8px; align-items: center; }
+  .pecas .cab { font-size: 9.5px; font-weight: 600; letter-spacing: .04em; color: var(--suave); padding: 0 0 5px; }
+  .pecas .lin { padding: 3px 0; }
+  .caixa { padding: 4px 8px; min-height: 26px; font-size: 12px; }
+  .x { color: #9aa3ae; text-align: center; }
+  .rodape { display: flex; align-items: center; gap: 8px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--borda); }
+  .feitas span { margin-right: 18px; }
+</style>
+</head>
+<body data-ativo="carros">
+<div class="app">
+  <nav class="lateral"></nav>
+  <div class="principal">
+    <div class="conteudo">
+      <div class="topo">
+        <span class="btn">‹ Voltar</span>
+        <div>
+          <div class="titulo"><svg viewBox="0 0 16 16"><path d="M3.2 3.2 2 7H1v4.5h1.5V13h2v-1.5h7V13h2v-1.5H15V7h-1l-1.2-3.8zM4.3 4.7h7.4l.8 2.3h-9zM4 8.3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm8 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>Opala 1979 (CXR4F17)</div>
+          <div class="subtitulo">Chevrolet Opala Comodoro 4.1 · 1979/1980 · Preto</div>
+        </div>
+      </div>
+      <div class="segmentado"><span>Resumo</span><span>Manutenções</span><span class="ativo">Histórico</span><span>Abastecimentos</span><span>Financiamento</span><span>Dados do carro</span></div>
+
+      <div class="cartao">
+        <div class="h2">Serviço ou revisão</div>
+        <div class="campos" style="grid-template-columns: 1.6fr 1fr 1fr">
+          <div><div class="rotulo">Tipo</div><div class="caixa">Serviço ou revisão&nbsp; ▾</div></div>
+          <div><div class="rotulo">Data *</div><div class="caixa">15/06/2026</div></div>
+          <div><div class="rotulo">Km</div><div class="caixa dir">82.770</div></div>
+        </div>
+        <div class="campos" style="grid-template-columns: 1.6fr 1.3fr 0.7fr; margin-top:10px">
+          <div><div class="rotulo">O que foi feito ou comprado *</div><div class="caixa">Troca de óleo, filtros e platinado</div></div>
+          <div><div class="rotulo">Onde (loja, quem fez)</div><div class="caixa">Oficina Clássicos do Zé</div></div>
+          <div><div class="rotulo">Mão de obra (R$)</div><div class="caixa dir">280,00</div></div>
+        </div>
+
+        <div class="rotulo" style="margin:14px 0 6px;font-size:12px;color:var(--texto);font-weight:600">Peças e materiais</div>
+        <div class="pecas">
+          <div class="cab"><span>PEÇA</span><span>MARCA</span><span>CÓDIGO</span><span>QTD.</span><span>VALOR UN.</span><span class="num">TOTAL</span><span></span></div>
+          <div class="lin"><div class="caixa">Óleo mineral 20W50</div><div class="caixa">Lubrax</div><div class="caixa vazio">—</div><div class="caixa dir">4</div><div class="caixa dir">38,90</div><span class="num">R$ 155,60</span><span class="x">×</span></div>
+          <div class="lin"><div class="caixa">Filtro de óleo</div><div class="caixa">Tecfil</div><div class="caixa">PSL55</div><div class="caixa dir">1</div><div class="caixa dir">32,00</div><span class="num">R$ 32,00</span><span class="x">×</span></div>
+          <div class="lin"><div class="caixa">Filtro de ar</div><div class="caixa">Tecfil</div><div class="caixa">ARL2161</div><div class="caixa dir">1</div><div class="caixa dir">45,00</div><span class="num">R$ 45,00</span><span class="x">×</span></div>
+          <div class="lin"><div class="caixa">Platinado e condensador</div><div class="caixa">Bosch</div><div class="caixa">1237013</div><div class="caixa dir">1</div><div class="caixa dir">89,00</div><span class="num">R$ 89,00</span><span class="x">×</span></div>
+        </div>
+        <div class="link" style="margin-top:6px">+ peça ou material</div>
+
+        <div class="rotulo" style="margin:12px 0 6px">Manutenções previstas feitas neste serviço</div>
+        <div class="feitas"><span class="marcado">Troca de óleo e filtro de óleo</span><span class="marcado">Filtro de ar do motor</span><span class="desmarcado">Regulagem do carburador</span></div>
+
+        <div class="rodape">
+          <span class="forte">Total: R$ 601,60</span>
+          <span style="margin-left:auto" class="btn">Cancelar</span><span class="btn primario">Salvar&nbsp; (Ctrl+S)</span>
+        </div>
+      </div>
+    </div>
+    <div class="status"></div>
+  </div>
+</div>
+<script src="lateral.js"></script>
+</body>
+</html>
