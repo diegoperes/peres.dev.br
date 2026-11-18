@@ -1,0 +1,24 @@
+{
+  "produto": "meuscarros",
+  "edicao": "2027",
+  "versao": "26.11.17.2",
+  "link": "https://www.peres.dev.br/meuscarros/#baixar",
+  "arquivos": [
+    {
+      "sistema": "osx-arm64",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.17.2/MeusCarros-2027-Mac-AppleSilicon.dmg",
+      "sha256": "9c2be63f1bbf19ad4978328f3a0c9e051e967b9670e078966c53016785ce8b22"
+    },
+    {
+      "sistema": "osx-x64",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.17.2/MeusCarros-2027-Mac-Intel.dmg",
+      "sha256": "ecdd4cae3ff3732964aeb9255f55259b8a369fc0a1e79bbae4ef85e642ed2400"
+    },
+    {
+      "sistema": "win-x64",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.17.2/MeusCarros-2027-Windows.exe",
+      "sha256": "26b84aa9ec73751f7255ad03d5fb3bf14b563cfed3e93e1103c007daee880da9"
+    }
+  ],
+  "assinatura": "g8vOcrtGP3tC8g2aMULhdD6HoOpEeMnS5EqNc4M4som64QtDYphA2A_rI6GwDU2HXAUr7cCKrECpW9EW98fYBg"
+}
