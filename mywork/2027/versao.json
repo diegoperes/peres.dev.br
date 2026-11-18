@@ -1,0 +1,23 @@
+{
+  "edicao": "2027",
+  "versao": "26.11.17.1",
+  "link": "https://www.peres.dev.br/mywork/#baixar",
+  "arquivos": [
+    {
+      "sistema": "osx-arm64",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.17.1/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "433d3e1986e53312942feaf676ec5f525c35a4b945f6db8291d74e561a5953c4"
+    },
+    {
+      "sistema": "osx-x64",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.17.1/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "d27633fbc88e0b39775a096965340472f6a10e112a23991f767b278a79a05202"
+    },
+    {
+      "sistema": "win-x64",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.17.1/MyWork-2027-Windows.exe",
+      "sha256": "5fbc6f65dde7e777a9013b80c673b0b2daa47cea629c0ae5388c04ef476961e0"
+    }
+  ],
+  "assinatura": "Uem7L8oSeZZ1q-vUAjQIdx0ohWRcK71c20nhvNjArX8DmhcJeOmYjUwZoOsvHXU8lLkmi5G8-tCMpPOaaWiuAg"
+}
