@@ -1,23 +1,28 @@
 {
   "edicao": "2027",
-  "versao": "26.11.17.1",
+  "versao": "26.11.18.1",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
+      "sistema": "android",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.18.1/MyWork-2027-Android.apk",
+      "sha256": "323c7967f204ed9047a027e8b8c7799090f7c298ca574d3bd984589d0c983237"
+    },
+    {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.17.1/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "433d3e1986e53312942feaf676ec5f525c35a4b945f6db8291d74e561a5953c4"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.18.1/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "77335f6dd9caf662b8eca1e939c7c500fd986cce1b24ee1320af5f20961c7ee5"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.17.1/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "d27633fbc88e0b39775a096965340472f6a10e112a23991f767b278a79a05202"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.18.1/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "02182dad27d684bbdd0e04b132a9504173a9426f94f2fe8e35b4d4ad67526110"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.17.1/MyWork-2027-Windows.exe",
-      "sha256": "5fbc6f65dde7e777a9013b80c673b0b2daa47cea629c0ae5388c04ef476961e0"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.18.1/MyWork-2027-Windows.exe",
+      "sha256": "1254a56506241561006fe9bb512cb3f18133753cf7d1a8fdd58e6390a628d527"
     }
   ],
-  "assinatura": "Uem7L8oSeZZ1q-vUAjQIdx0ohWRcK71c20nhvNjArX8DmhcJeOmYjUwZoOsvHXU8lLkmi5G8-tCMpPOaaWiuAg"
+  "assinatura": "W9-7RE9DbBQgqJ1inRx_8KHpLxo7kSPGzFhC83eucC6tGsQihztqlHczwKdqyWz6fQyfWC4KAqODY6BNzbP_Dw"
 }
