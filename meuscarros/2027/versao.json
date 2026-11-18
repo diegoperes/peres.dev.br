@@ -1,24 +1,29 @@
 {
   "produto": "meuscarros",
   "edicao": "2027",
-  "versao": "26.11.17.2",
+  "versao": "26.11.18.2",
   "link": "https://www.peres.dev.br/meuscarros/#baixar",
   "arquivos": [
     {
+      "sistema": "android",
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.2/MeusCarros-2027-Android.apk",
+      "sha256": "7a7fa2bc7fb1ac502715a1f175cdc2cbab82578320b56753cad5311ba0051920"
+    },
+    {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.17.2/MeusCarros-2027-Mac-AppleSilicon.dmg",
-      "sha256": "9c2be63f1bbf19ad4978328f3a0c9e051e967b9670e078966c53016785ce8b22"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.2/MeusCarros-2027-Mac-AppleSilicon.dmg",
+      "sha256": "a7b44b26774db653f590d2bf4c34e00bc3b95ff5280bee7dc222157c08debb6b"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.17.2/MeusCarros-2027-Mac-Intel.dmg",
-      "sha256": "ecdd4cae3ff3732964aeb9255f55259b8a369fc0a1e79bbae4ef85e642ed2400"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.2/MeusCarros-2027-Mac-Intel.dmg",
+      "sha256": "b293cd42a35e32f252fb71321fff59f46eb1dc7a6a50bd5d2a8ca7718636746d"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.17.2/MeusCarros-2027-Windows.exe",
-      "sha256": "26b84aa9ec73751f7255ad03d5fb3bf14b563cfed3e93e1103c007daee880da9"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.2/MeusCarros-2027-Windows.exe",
+      "sha256": "28daa93201c8ea75e9e7aea59edc44d13898dd5e982bf4a6b667769d93c5d8d9"
     }
   ],
-  "assinatura": "g8vOcrtGP3tC8g2aMULhdD6HoOpEeMnS5EqNc4M4som64QtDYphA2A_rI6GwDU2HXAUr7cCKrECpW9EW98fYBg"
+  "assinatura": "vsy-YhQUaRx3iExOJ2kRZkOV9iVulQBx7SpEOBjXNmX-3JYsNscg0pjK5HwyIkwd8pP9c6R3U_iwMs5L7-V5DQ"
 }
