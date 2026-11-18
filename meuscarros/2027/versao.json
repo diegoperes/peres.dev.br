@@ -1,29 +1,29 @@
 {
   "produto": "meuscarros",
   "edicao": "2027",
-  "versao": "26.11.18.3",
+  "versao": "26.11.18.4",
   "link": "https://www.peres.dev.br/meuscarros/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.3/MeusCarros-2027-Android.apk",
-      "sha256": "e8760f4269d62703f7ba08a97509c5bb4b5b9e566d5b34701a4b2175e15a818e"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.4/MeusCarros-2027-Android.apk",
+      "sha256": "c6664a81a7c204f8dc568ab2b838a749ea9d23ec66c166098e448f7642cb605d"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.3/MeusCarros-2027-Mac-AppleSilicon.dmg",
-      "sha256": "ec94ecf3000dd707d64ef4d2447c15aac0c009fc1b037e7af4249ec1eb2e63ab"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.4/MeusCarros-2027-Mac-AppleSilicon.dmg",
+      "sha256": "0be763b4bba147cfd1d8f35dc930d43be366f3454b4eff57bcb359eeca77dbcc"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.3/MeusCarros-2027-Mac-Intel.dmg",
-      "sha256": "5d1f901f33973594b9ac0762a4450045062c5db0fa0cf3f3dc3b6b7064b097e8"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.4/MeusCarros-2027-Mac-Intel.dmg",
+      "sha256": "a62bf43aa4b01e5dbb2f9cf1b225ba09ef9789ddc4cab20f22c388d73ae2de05"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.3/MeusCarros-2027-Windows.exe",
-      "sha256": "57be0e24f545cac32e82335e2f906fdae40226d09d89eb4903697eb295c0eeda"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/meuscarros-2027-v26.11.18.4/MeusCarros-2027-Windows.exe",
+      "sha256": "383cdbc7736fb8bee3c32ccd5eaa67ab5db2e3470054c1a1c76cad975a062614"
     }
   ],
-  "assinatura": "nrWQcjZyJTBaKTVC93AvLuZI6RhyYczDw2OO7NBouEV3aBnPwk36UsXhDPryye7bmEc7jBSLfJ4rMmeeLl5SCQ"
+  "assinatura": "GoYqkoy9zs8msyljBXs91Meg-Ml4seu0QAbeu7egBtoWBJCWG1rHu94HiTCVBxEFuz8El6DpiPg9rnzM8Je4AQ"
 }
