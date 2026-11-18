@@ -1,0 +1,232 @@
+/* Página principal (www.peres.dev.br): lista os programas. Usa css/style.css; cada produto tem a sua cor. */
+.home {
+  --accent: #4f8ff7;
+  --accent-contrast: #ffffff;
+}
+
+.home__logo {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.home__logo span {
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.home__nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.home__nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color var(--transition);
+}
+
+.home__nav a:hover {
+  color: var(--text);
+}
+
+.home__hero {
+  text-align: center;
+  padding-block: 4.5rem 3rem;
+  background: radial-gradient(ellipse 60% 70% at 50% 0%, rgba(79, 143, 247, 0.12), transparent 70%);
+}
+
+.home__hero h1 {
+  font-size: clamp(2rem, 5.5vw, 3.2rem);
+  letter-spacing: -0.02em;
+  max-width: 760px;
+  margin: 0 auto 1rem;
+}
+
+.home__hero p {
+  max-width: 620px;
+  margin: 0 auto;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+/* Um cartão por programa */
+.produtos {
+  display: grid;
+  gap: 2rem;
+  padding-bottom: 3rem;
+  scroll-margin-top: 80px;
+}
+
+.produto {
+  --cor: #4f8ff7;
+  --cor-suave: rgba(79, 143, 247, 0.12);
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  padding: 2rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: 18px;
+  scroll-margin-top: 80px;
+}
+
+.produto--carros {
+  --cor: #fb8a3c;
+  --cor-suave: rgba(251, 138, 60, 0.13);
+}
+
+/* Meus Carros com o print do outro lado, alternando */
+.produto--carros .produto__print {
+  order: 2;
+}
+
+.produto__print {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--surface-border);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35), 0 0 0 6px var(--cor-suave);
+  transition: transform var(--transition);
+}
+
+.produto__print:hover {
+  transform: translateY(-3px);
+}
+
+.produto__print img {
+  width: 100%;
+  height: auto;
+}
+
+.produto__nome {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.produto__nome img {
+  width: 48px;
+  height: 48px;
+  border-radius: 11px;
+}
+
+.produto__nome h2 {
+  text-align: left;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.produto__nome span {
+  color: var(--cor);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.produto__texto > p {
+  color: var(--text-muted);
+  margin: 0 0 1rem;
+}
+
+.produto__lista {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.produto__lista li {
+  position: relative;
+  padding-left: 1.6rem;
+}
+
+.produto__lista li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--cor) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.3l2.6 2.6L12 5.5' fill='none' stroke='white' stroke-width='2.2'/%3E%3C/svg%3E") center/0.7rem no-repeat;
+}
+
+.produto .produto__sistemas {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.produto__acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.produto .btn {
+  background: var(--cor);
+  color: #fff;
+}
+
+.produto--carros .btn {
+  color: #1a1206;
+}
+
+.produto .btn--ghost {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--surface-border);
+}
+
+.produto .btn--ghost:hover {
+  border-color: var(--cor);
+}
+
+/* O que os dois têm em comum */
+.vantagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding-block: 1rem 4rem;
+}
+
+.vantagens div {
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+}
+
+.vantagens h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+
+.vantagens p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 820px) {
+  .produto {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .produto--carros .produto__print {
+    order: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .home__nav {
+    gap: 1rem;
+  }
+}

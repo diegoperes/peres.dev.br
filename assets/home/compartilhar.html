@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8">
+<!-- Imagem de compartilhamento da página principal (1200 x 630). Gerar: assets/home/gerar.sh -->
+<style>
+  @font-face { font-family: Inter; font-weight: 600; src: url(Inter-600.ttf); }
+  @font-face { font-family: Inter; font-weight: 800; src: url(Inter-800.ttf); }
+  html, body { margin: 0; }
+  body { width: 1200px; height: 630px; overflow: hidden; background: #0b0f14; color: #f5f7fa; font-family: Inter, sans-serif;
+         background-image: radial-gradient(ellipse 60% 80% at 50% 0%, rgba(79,143,247,.18), transparent 70%); box-sizing: border-box; padding: 0 80px; display: flex; flex-direction: column; justify-content: center; }
+  .logo { font-size: 40px; font-weight: 800; letter-spacing: -0.02em; } .logo span { color: #9aa5b1; font-weight: 600; }
+  h1 { font-size: 60px; line-height: 1.08; letter-spacing: -0.03em; margin: 30px 0 52px; font-weight: 800; }
+  .prods { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+  .p { display: flex; align-items: center; gap: 22px; padding: 26px 28px; border-radius: 20px; background: #131a22; border: 1px solid #1f2933; }
+  .p img { width: 84px; height: 84px; border-radius: 18px; }
+  .p b { display: block; font-size: 34px; letter-spacing: -0.02em; } .p small { font-size: 23px; font-weight: 600; }
+  .mw small { color: #4f8ff7; } .mc small { color: #fb8a3c; }
+</style></head>
+<body>
+  <div class="logo">peres<span>.dev</span></div>
+  <h1>Programas simples,<br>sem internet e sem mensalidade</h1>
+  <div class="prods">
+    <div class="p mw"><img src="../../mywork/img/icon.png" alt=""><div><b>MyWork 2027</b><small>Gestão para MEI e autônomos</small></div></div>
+    <div class="p mc"><img src="../../meuscarros/img/icon.png" alt=""><div><b>Meus Carros 2027</b><small>Para quem cuida dos carros</small></div></div>
+  </div>
+</body></html>

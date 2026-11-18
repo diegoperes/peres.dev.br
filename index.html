@@ -4,15 +4,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWork | peres.dev</title>
-    <!-- www.peres.dev.br abre direto a página do MyWork -->
-    <meta http-equiv="refresh" content="0; url=/mywork/">
-    <link rel="canonical" href="https://www.peres.dev.br/mywork/">
-    <script>location.replace('/mywork/' + location.hash);</script>
+
+    <!--
+        Links antigos com âncora (www.peres.dev.br/#baixar, de quando esta página abria direto o MyWork) continuam
+        indo para a seção certa do MyWork.
+    -->
+    <script>
+        (function () {
+            var h = location.hash.slice(1);
+            if (h && ['produtos', 'mywork', 'meuscarros'].indexOf(h) < 0) location.replace('/mywork/' + location.hash);
+        })();
+    </script>
+
+    <title>peres.dev: programas para Windows, Mac e Android</title>
+    <meta name="description"
+        content="MyWork 2027, gestão para MEI e autônomos, e Meus Carros 2027, para quem cuida dos próprios carros. Programas que funcionam sem internet, com os dados no seu computador.">
+    <meta name="author" content="Diego Peres">
+    <meta name="theme-color" content="#0b0f14">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="peres.dev: MyWork 2027 e Meus Carros 2027">
+    <meta property="og:description"
+        content="Gestão para MEI e autônomos e controle dos seus carros. Funcionam sem internet e os dados ficam com você.">
+    <meta property="og:url" content="https://www.peres.dev.br/">
+    <meta property="og:image" content="https://www.peres.dev.br/img/compartilhar.png">
+    <meta property="og:locale" content="pt_BR">
+
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <link rel="canonical" href="https://www.peres.dev.br/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "url": "https://www.peres.dev.br/mywork/", "name": "MyWork 2027" },
+            { "@type": "ListItem", "position": 2, "url": "https://www.peres.dev.br/meuscarros/", "name": "Meus Carros 2027" }
+        ]
+    }
+    </script>
 </head>
 
-<body>
-    <p>Indo para <a href="/mywork/">a página do MyWork</a>…</p>
+<body class="home">
+    <header class="topbar">
+        <div class="container topbar__inner">
+            <a href="/" class="brand"><span class="home__logo">peres<span>.dev</span></span></a>
+            <nav class="home__nav" aria-label="Programas">
+                <a href="mywork/">MyWork</a>
+                <a href="meuscarros/">Meus Carros</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="home__hero container">
+            <h1>Programas simples para o seu dia a dia</h1>
+            <p>Feitos para usar sem complicação: funcionam sem internet, os dados ficam no seu computador e você paga uma
+                vez por edição, sem mensalidade.</p>
+        </section>
+
+        <section class="container produtos" id="produtos" aria-label="Programas">
+            <article class="produto produto--mywork" id="mywork">
+                <a class="produto__print" href="mywork/" tabindex="-1" aria-hidden="true">
+                    <img src="mywork/img/inicio.png" alt="" width="956" height="597" loading="lazy">
+                </a>
+                <div class="produto__texto">
+                    <div class="produto__nome">
+                        <img src="mywork/img/icon.png" alt="" width="48" height="48">
+                        <div>
+                            <h2>MyWork 2027</h2>
+                            <span>Gestão para MEI e autônomos</span>
+                        </div>
+                    </div>
+                    <p>Contatos, ordens de serviço com PDF, vendas, estoque e financeiro num só lugar. Se adapta ao seu
+                        ramo: oficina, assistência técnica, beleza, comércio, personal trainer e muitos outros.</p>
+                    <ul class="produto__lista">
+                        <li>Ordens de serviço e orçamentos em PDF</li>
+                        <li>Contas a pagar e a receber, caixa e DRE</li>
+                        <li>Limite do MEI e controle do DAS</li>
+                    </ul>
+                    <p class="produto__sistemas">Windows e Mac</p>
+                    <div class="produto__acoes">
+                        <a class="btn" href="mywork/">Conhecer o MyWork</a>
+                        <a class="btn btn--ghost" href="mywork/#baixar">Baixar</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="produto produto--carros" id="meuscarros">
+                <a class="produto__print" href="meuscarros/" tabindex="-1" aria-hidden="true">
+                    <img src="meuscarros/img/garagem.png" alt="" width="2000" height="1240" loading="lazy">
+                </a>
+                <div class="produto__texto">
+                    <div class="produto__nome">
+                        <img src="meuscarros/img/icon.png" alt="" width="48" height="48">
+                        <div>
+                            <h2>Meus Carros 2027</h2>
+                            <span>Para quem cuida dos próprios carros</span>
+                        </div>
+                    </div>
+                    <p>Manutenções com aviso pelo km ou pela data, abastecimentos e consumo, histórico com peças,
+                        financiamento e quanto cada carro já custou. Do carro do dia a dia ao antigo de coleção.</p>
+                    <ul class="produto__lista">
+                        <li>Aviso de troca de óleo, filtros e revisões</li>
+                        <li>Consumo de cada tanque e custo por km</li>
+                        <li>Histórico de serviços com peças e oficina</li>
+                    </ul>
+                    <p class="produto__sistemas">Windows, Mac e Android</p>
+                    <div class="produto__acoes">
+                        <a class="btn" href="meuscarros/">Conhecer o Meus Carros</a>
+                        <a class="btn btn--ghost" href="meuscarros/#baixar">Baixar</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="container vantagens" aria-label="Em comum">
+            <div>
+                <h3>Sem internet</h3>
+                <p>Tudo roda no seu aparelho. Nada vai para a nuvem de terceiros.</p>
+            </div>
+            <div>
+                <h3>Backup fácil</h3>
+                <p>Um clique para copiar para o pen drive ou para a sua nuvem, e cópia automática todo dia.</p>
+            </div>
+            <div>
+                <h3>Teste antes</h3>
+                <p>Baixe e use em modo de demonstração. Comprou, é só ativar com a chave.</p>
+            </div>
+            <div>
+                <h3>Sem mensalidade</h3>
+                <p>Paga uma vez pela edição, com as atualizações de correção dela incluídas.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>peres.dev · Feito por <a href="https://www.diegoperes.com.br/">Diego Peres</a> · Suporte: <a href="#"
+                    class="email-reveal" data-email-trigger="show">clique para ver o e-mail</a> · © <span id="year"></span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- E-mail de suporte: o mesmo site-config.js do MyWork (gravado pelo workflow de publicação). -->
+    <script src="mywork/site-config.js"></script>
+    <script>
+        // E-mail de suporte: revelado no clique; depois disso o link vira um mailto: normal.
+        (function () {
+            const email = ((window.SITE_CONFIG || {}).email || '').trim();
+            const links = document.querySelectorAll('[data-email-trigger="show"]');
+            const revelar = el => {
+                el.textContent = email;
+                el.href = 'mailto:' + email + '?subject=peres.dev';
+                el.classList.add('is-revealed');
+            };
+            links.forEach(el => el.addEventListener('click', ev => {
+                if (el.classList.contains('is-revealed')) return;
+                ev.preventDefault();
+                if (!email) return;
+                links.forEach(revelar);
+            }));
+            window.addEventListener('beforeprint', () => { if (email) links.forEach(revelar); });
+        })();
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>

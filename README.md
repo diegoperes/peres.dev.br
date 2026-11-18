@@ -2,7 +2,9 @@
 
 Site publicado via GitHub Pages em https://www.peres.dev.br.
 
-- `index.html`: redireciona www.peres.dev.br para a página do MyWork (`/mywork/`).
+- `index.html` e `css/home.css`: página principal (www.peres.dev.br), com um cartão para cada programa (MyWork e Meus
+  Carros). Links antigos com âncora (`www.peres.dev.br/#baixar`) vão para a seção certa do MyWork. Ícone e imagem de
+  compartilhamento em `img/`, gerados por `assets/home/gerar.sh`.
 - `css/style.css`: estilo base do site.
 
 ## MyWork (`mywork/`)
@@ -21,9 +23,8 @@ Página do programa em https://www.peres.dev.br/mywork/.
 - Instaladores: os botões de download apontam para
   `https://github.com/diegoperes/peres.dev.br/releases/latest/download/<arquivo>`, com os nomes da edição:
   `MyWork-2027-Windows.exe`, `MyWork-2027-Mac-AppleSilicon.dmg` e `MyWork-2027-Mac-Intel.dmg`. Cada versão é um
-  Release `mywork-2027-v<versão>` com esses três arquivos, publicado como *latest*. Até sair o primeiro Release da
-  2027, esses links não acham o arquivo (o *latest* ainda é da 2026). Quando sair o MyWork 2028, troque os botões
-  pelos nomes da 2028.
+  Release `mywork-2027-v<versão>` com esses três arquivos, publicado como *latest*. Quando sair o MyWork 2028,
+  troque os botões pelos nomes da 2028.
 
 ## Meus Carros (`meuscarros/`)
 
