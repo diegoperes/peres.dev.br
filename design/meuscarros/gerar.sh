@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 # Gera as imagens do Meus Carros 2027 a partir destes HTML, com o Chrome sem janela.
 #   1) tela-*.html (1000 x 620, telas do programa) -> telas/*.png, em 2x
-#   2) anuncio-*.html (1200 x 1200) -> ../NN-*.png, as imagens do anúncio
-#   3) copia para o site: ../../../meuscarros/img/ (prints, imagem de compartilhar e ícones)
+#   2) anuncio-*.html (1200 x 1200) -> anuncios/meuscarros/NN-*.png, as imagens do anúncio
+#   3) copia para o site: meuscarros/img/ (prints, imagem de compartilhar e ícones)
 #   O ícone é o icone-marca.png (o ícone definitivo do programa, 512 px); as imagens do anúncio usam ele.
-# Uso: Anuncio/MeusCarros/fonte/gerar.sh   (ou só as telas: gerar.sh telas)
+# Uso: design/meuscarros/gerar.sh   (ou só as telas: design/meuscarros/gerar.sh telas)
 set -euo pipefail
 cd "$(dirname "$0")"
 CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"
-SITE=../../../meuscarros/img
+SITE=../../meuscarros/img
+ANUNCIO=../../anuncios/meuscarros
 
 foto() { # arquivo.html largura altura escala saida.png
   "$CHROME" --headless=new --disable-gpu --hide-scrollbars --no-first-run --no-default-browser-check \
@@ -31,7 +32,7 @@ done
 echo "Anúncio:"
 for f in anuncio-*.html; do
   n="${f#anuncio-}"; n="${n%.html}"
-  foto "$f" 1200 1200 1 "../$n.png"
+  foto "$f" 1200 1200 1 "$ANUNCIO/$n.png"
 done
 
 echo "Site:"
@@ -39,7 +40,7 @@ mkdir -p "$SITE"
 for n in garagem resumo manutencoes abastecimentos historico; do
   [ -f "telas/$n.png" ] && cp "telas/$n.png" "$SITE/$n.png" && echo "  $SITE/$n.png"
 done
-cp ../01-capa.png "$SITE/compartilhar.png" && echo "  $SITE/compartilhar.png"
+cp "$ANUNCIO/01-capa.png" "$SITE/compartilhar.png" && echo "  $SITE/compartilhar.png"
 python3 - "$SITE" <<'PY'
 import sys
 from PIL import Image

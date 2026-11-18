@@ -1,4 +1,4 @@
-/* Página do Meus Carros: usa ../css/style.css e ../mywork/mywork.css (mesmo molde do MyWork) e troca o destaque
+/* Página do Meus Carros: usa ../css/style.css e ../css/produto.css (mesmo molde do MyWork) e troca o destaque
    pelo laranja do Meus Carros. */
 .meuscarros {
   --accent: #fb8a3c;
@@ -8,12 +8,6 @@
 
 .meuscarros .mw-hero {
   background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(251, 138, 60, 0.16), transparent 70%);
-}
-
-/* Botão de download enquanto a primeira versão não foi publicada */
-.download.is-breve {
-  opacity: 0.55;
-  pointer-events: none;
 }
 
 .baixar__breve {
@@ -105,11 +99,4 @@
 /* Botões escondidos (Comprar sem link): o display dos .btn não pode vencer o hidden */
 [hidden] {
   display: none !important;
-}
-
-/* Quatro botões de download (Windows, dois Macs e Android): dois por linha */
-.meuscarros .downloads {
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-  max-width: 760px;
-  margin: 0 auto;
 }

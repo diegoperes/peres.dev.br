@@ -1,10 +1,10 @@
 /* Telas do Meus Carros 2027 recriadas em HTML (mesmas cores, textos e colunas do programa: src/MyWork.App/Views/Garagem).
    Cada tela tem 1000 x 620 e é gerada em PNG por gerar.sh. */
-@font-face { font-family: Inter; font-weight: 400; src: url(fonts/Inter-400.ttf); }
-@font-face { font-family: Inter; font-weight: 500; src: url(fonts/Inter-500.ttf); }
-@font-face { font-family: Inter; font-weight: 600; src: url(fonts/Inter-600.ttf); }
-@font-face { font-family: Inter; font-weight: 700; src: url(fonts/Inter-700.ttf); }
-@font-face { font-family: Inter; font-weight: 800; src: url(fonts/Inter-800.ttf); }
+@font-face { font-family: Inter; font-weight: 400; src: url(../comum/fonts/Inter-400.ttf); }
+@font-face { font-family: Inter; font-weight: 500; src: url(../comum/fonts/Inter-500.ttf); }
+@font-face { font-family: Inter; font-weight: 600; src: url(../comum/fonts/Inter-600.ttf); }
+@font-face { font-family: Inter; font-weight: 700; src: url(../comum/fonts/Inter-700.ttf); }
+@font-face { font-family: Inter; font-weight: 800; src: url(../comum/fonts/Inter-800.ttf); }
 
 :root {
   --lateral: #1d314e;

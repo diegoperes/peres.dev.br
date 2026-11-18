@@ -27,17 +27,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Só o que é do site: fora o material do anúncio (Anuncio/), o README e os arquivos do git/GitHub.
+      # Só o que é do site: fora os anúncios (anuncios/), as fontes das imagens (design/), o README e os arquivos do git/GitHub.
       - name: Prepare site
         run: |
           mkdir -p _site
           rsync -a ./ _site/ \
             --exclude '.git' --exclude '.github' --exclude '_site' \
-            --exclude 'Anuncio' --exclude 'assets' --exclude 'README.md' --exclude '.DS_Store' --exclude '.gitignore'
-          test -f _site/CNAME
-          test -f _site/mywork/site-config.js
-          test -f _site/mywork/2026/versao.json
-          test -f _site/meuscarros/index.html
+            --exclude 'anuncios' --exclude 'design' --exclude 'README.md' --exclude '.DS_Store' --exclude '.gitignore'
+          # Páginas e os versao.json que os programas instalados consultam (não podem mudar de lugar)
+          for f in CNAME index.html css/produto.css js/site-config.js mywork/index.html meuscarros/index.html \
+                   mywork/versao.json mywork/2026/versao.json mywork/2027/versao.json meuscarros/2027/versao.json; do
+            test -f "_site/$f" || { echo "Falta $f"; exit 1; }
+          done
           ls -R _site | head -50
 
       # E-mail de suporte: vem da variável (ou secret) EMAIL do repositório e só existe no site publicado.
@@ -52,7 +53,7 @@ jobs:
           email = os.environ.get("EMAIL", "").strip()
           if not email:
               raise SystemExit("Missing GitHub Actions variable or secret: EMAIL")
-          Path("_site/mywork/site-config.js").write_text(
+          Path("_site/js/site-config.js").write_text(
               "window.SITE_CONFIG = {\n  email: " + json.dumps(email) + ",\n};\n",
               encoding="utf-8",
           )

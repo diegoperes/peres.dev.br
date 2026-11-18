@@ -1,0 +1,10 @@
+Anúncios no Mercado Livre
+
+Uma pasta por produto (mywork/ e meuscarros/), cada uma com:
+- titulo.txt: opções de título (até 60 caracteres). Use o primeiro.
+- descricao.txt: texto para colar em "Descrição". Não tem links, telefone, e-mail nem site, que o Mercado Livre não aceita.
+- 01, 02, 03... .png: imagens 1200 x 1200, nessa ordem. A 01 é a capa.
+
+De onde saem as imagens (pasta design/, na raiz do projeto):
+- Meus Carros: todas, de design/meuscarros/ (design/meuscarros/gerar.sh). As telas do programa são recriadas em HTML.
+- MyWork: a 07 sai de design/mywork/ (design/mywork/gerar.sh). As outras são prints editados.

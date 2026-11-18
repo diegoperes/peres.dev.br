@@ -1,4 +1,5 @@
-/* Página do MyWork: usa ../css/style.css e troca o destaque pelo azul do app */
+/* Páginas dos produtos (MyWork e Meus Carros): molde comum por cima do css/style.css, com o destaque azul do
+   MyWork. O Meus Carros troca as cores no meuscarros/meuscarros.css. */
 .mywork {
   --accent: #4f8ff7;
   --accent-contrast: #ffffff;
@@ -596,4 +597,17 @@ section[id] {
 
 #duvidas-dados {
   scroll-margin-top: 90px;
+}
+
+/* Botão de download sem arquivo publicado ainda (ex.: o APK antes da primeira versão de Android) */
+.download.is-breve {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* Quatro botões de download (Windows, dois Macs e Android): dois por linha */
+.mywork .downloads {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  max-width: 760px;
+  margin: 0 auto;
 }
