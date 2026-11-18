@@ -8,11 +8,13 @@ Site publicado via GitHub Pages em https://www.peres.dev.br.
 index.html            página principal: um cartão para cada programa
 css/                  style.css (base do site), home.css (página principal), produto.css (molde das páginas dos produtos)
 js/site-config.js     e-mail de suporte (vazio no git; o workflow preenche na publicação)
+robots.txt            libera o rastreamento e aponta para o sitemap
 img/                  ícone e imagem de compartilhamento da página principal
 mywork/               página do MyWork, prints (img/) e versao.json de cada edição
 meuscarros/           página do Meus Carros, prints (img/) e versao.json de cada edição
 
 anuncios/             fora do site: o que vai para o Mercado Livre (imagens, título e descrição de cada produto)
+scripts/sitemap.py    fora do site: gera o sitemap.xml na publicação
 design/               fora do site: HTML de onde saem as imagens (anúncios, prints recriados e ícones)
   comum/              fontes Inter e o estilo das imagens de anúncio
   home/               ícone e imagem de compartilhamento da página principal
@@ -20,8 +22,18 @@ design/               fora do site: HTML de onde saem as imagens (anúncios, pri
   meuscarros/         telas do programa recriadas em HTML e as 9 imagens do anúncio
 ```
 
-O workflow (`.github/workflows/deploy-pages.yml`) publica tudo, menos `anuncios/`, `design/`, o README e os
-arquivos do git, e confere se as páginas e os `versao.json` estão lá.
+O workflow (`.github/workflows/deploy-pages.yml`) publica tudo, menos `anuncios/`, `design/`, `scripts/`, o README
+e os arquivos do git, e confere se as páginas e os `versao.json` estão lá.
+
+## SEO e Google Search Console
+
+- Domínio do site: **https://www.peres.dev.br** (configurado em Settings > Pages do GitHub; `peres.dev.br` sem www
+  redireciona para ele). Canonical, `og:url`, `og:image`, o sitemap e o robots.txt usam todos esse endereço.
+- `sitemap.xml`: gerado na publicação por `scripts/sitemap.py`, em https://www.peres.dev.br/sitemap.xml. O `lastmod`
+  é a data do último commit de cada página (HTML, CSS e imagens). **Página nova: inclua na lista `ROTAS`** do script
+  (e ponha canonical, title, description e og:* nela, como nas outras).
+- `robots.txt`: fixo na raiz.
+- Para ver o sitemap localmente: `python3 scripts/sitemap.py`.
 
 **Não mude de lugar** os `versao.json` (`mywork/versao.json`, `mywork/<edição>/versao.json`,
 `meuscarros/<edição>/versao.json`): os programas instalados consultam esses endereços, e o

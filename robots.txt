@@ -1,0 +1,5 @@
+# Tudo liberado para rastreamento. O sitemap é gerado na publicação (scripts/sitemap.py).
+User-agent: *
+Allow: /
+
+Sitemap: https://www.peres.dev.br/sitemap.xml
