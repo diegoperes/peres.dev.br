@@ -37,7 +37,7 @@ done
 
 echo "Site:"
 mkdir -p "$SITE"
-for n in garagem resumo manutencoes abastecimentos historico; do
+for n in garagem resumo manutencoes abastecimentos historico pecas; do
   [ -f "telas/$n.png" ] && cp "telas/$n.png" "$SITE/$n.png" && echo "  $SITE/$n.png"
 done
 cp "$ANUNCIO/01-capa.png" "$SITE/compartilhar.png" && echo "  $SITE/compartilhar.png"

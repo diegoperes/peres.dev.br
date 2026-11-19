@@ -1,5 +1,6 @@
 // Menu lateral e barra de status do Meus Carros 2027, iguais em todas as telas. Uso: <body data-ativo="carros">.
 // Itens do menu do ramo "Meus carros" (OS, equipamentos, vendas, produtos e MEI desligados), na ordem do programa.
+// Peças/ferramentas (F5) vem logo depois de Meus carros, desde a versão de 18/11/2026.
 (function () {
   const ic = {
     inicio: 'M8 1.5 1 7.2V15h5v-4.5h4V15h5V7.2z',
@@ -10,9 +11,10 @@
     relatorios: 'M3 1h6.5L13 4.5V15H3zM5.2 7.3v1.3h5.6V7.3zm0 2.6v1.3h5.6V9.9z',
     ajustes: 'M8 5a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0 1.6a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z',
     ativacao: 'M5 5a3 3 0 1 0 2.8 4H11v1.6h1.6V9H14V7.4H7.8A3 3 0 0 0 5 5zm0 1.6a1.4 1.4 0 1 1 0 2.8 1.4 1.4 0 0 1 0-2.8z',
+    ferramenta: 'M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z',
     backup: 'M8 1.5c3.3 0 6 1 6 2.3v8.4c0 1.3-2.7 2.3-6 2.3s-6-1-6-2.3V3.8C2 2.5 4.7 1.5 8 1.5z',
   };
-  const svg = n => `<svg viewBox="0 0 16 16"><path d="${ic[n]}"/></svg>`;
+  const svg = n => `<svg viewBox="${n === 'ferramenta' ? '0 0 24 24' : '0 0 16 16'}"><path d="${ic[n]}"/></svg>`;
   const item = (id, texto, tecla) =>
     `<div class="item${document.body.dataset.ativo === id ? ' ativo' : ''}">${svg(id)}<span>${texto}</span>${tecla ? `<kbd>${tecla}</kbd>` : ''}</div>`;
 
@@ -24,9 +26,10 @@
     <div class="sep"></div>
     ${item('contatos', 'Contatos', 'F3')}
     ${item('carros', 'Meus carros', 'F4')}
+    ${item('ferramenta', 'Peças/ferramentas', 'F5')}
     <div class="sep"></div>
-    ${item('analises', 'Análises', 'F5')}
-    ${item('relatorios', 'Relatórios', 'F6')}
+    ${item('analises', 'Análises', 'F6')}
+    ${item('relatorios', 'Relatórios', 'F7')}
     <div class="sep"></div>
     ${item('ajustes', 'Ajustes')}
     ${item('ativacao', 'Ativação')}
@@ -36,5 +39,5 @@
     <div class="sobre">ⓘ&nbsp; Sobre</div>`;
 
   document.querySelector('.status').innerHTML =
-    '<span>▤&nbsp; Banco: C:\\Users\\Ricardo\\AppData\\Roaming\\Meus Carros 2027\\dados</span><span>Versão 26.11.17.1</span>';
+    '<span>▤&nbsp; Banco: C:\\Users\\Ricardo\\AppData\\Roaming\\Meus Carros 2027\\dados</span><span>Versão 26.11.19.1</span>';
 })();
