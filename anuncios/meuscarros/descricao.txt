@@ -1,6 +1,6 @@
 MEUS CARROS 2027: SEUS CARROS EM DIA, NUM SÓ LUGAR
 
-Programa para quem cuida dos próprios carros, do carro do dia a dia aos antigos e de coleção. Anote abastecimentos, serviços, peças e documentos: o programa avisa a troca de óleo, correias e fluidos pelo km ou pela data, calcula o consumo e mostra quanto cada carro já custou. No computador ou no celular Android, sem mensalidade.
+Programa para quem cuida dos próprios carros, do carro do dia a dia aos antigos e de coleção. Anote abastecimentos, serviços, peças e documentos: o programa avisa a troca de óleo, correias e fluidos pelo km ou pela data, lembra o IPVA, o licenciamento, o seguro e a CNH antes de vencer, calcula o consumo e mostra quanto cada carro gastou no mês e no ano. No computador ou no celular Android, sem mensalidade.
 
 NO COMPUTADOR E NO CELULAR, COM A MESMA CHAVE
 - Windows 10 (versão 1607 ou mais nova) e Windows 11, 64 bits
@@ -24,6 +24,17 @@ MANUTENÇÕES COM AVISO
 - Para alguns modelos, como o VW Taos, já vem um plano próprio do modelo para você conferir com o manual
 - Anotou o serviço? As manutenções feitas recomeçam a contar sozinhas
 
+LEMBRETE DE IPVA, LICENCIAMENTO, SEGURO E CNH
+- Cadastre o vencimento do IPVA, do licenciamento, do seguro e do que mais vencer (vistoria, rastreador, proteção veicular)
+- Aviso na tela de início 30 dias antes de vencer, e também da validade da sua CNH
+- Pagou? Um clique em "Paguei" e o gasto vai para o histórico do carro
+- O que repete todo ano já passa o vencimento para o ano seguinte
+
+TELA DE INÍCIO
+- Vencimentos e manutenções chegando, logo ao abrir o programa
+- Quanto cada carro gastou neste mês e no ano: combustível, serviços, peças, documentos e seguro
+- Contas a pagar dos próximos 7 dias, como as parcelas do financiamento
+
 PEÇAS E FERRAMENTAS GUARDADAS
 - Anote as peças e ferramentas que você tem: onde estão guardadas, quantas e para qual carro
 - Antes de comprar, é só buscar: "já tenho?" pelo nome, marca, código ou lugar
@@ -46,9 +57,9 @@ QUANTO CADA CARRO JÁ CUSTOU
 - Total investido, custo por km, consumo médio e, se vendido, quanto sobrou
 - Financiamento: as parcelas viram contas a pagar, com pagas, saldo, próxima e juros
 
-FINANCEIRO E RELATÓRIOS
-- Tudo o que você anota entra no caixa, separado por carro
-- Contas a pagar e a receber, orçamento do mês e gráficos
+CAIXA E RELATÓRIOS
+- Tudo o que você anota nos carros entra no caixa
+- Contas a pagar, como as parcelas do financiamento e o seguro
 - Relatórios em PDF ou planilha do Excel
 
 SEUS DADOS FICAM COM VOCÊ
@@ -67,7 +78,8 @@ O QUE A COMPRA INCLUI
 - A edição do próximo ano (Meus Carros 2028) é um produto novo, vendido à parte, e não vem com esta compra
 - O Meus Carros é um programa separado do MyWork: a chave de um não ativa o outro, e os dois podem ficar instalados no mesmo aparelho
 
-Antes de ativar, dá para instalar e testar o programa em modo de demonstração.
+TESTE ANTES DE COMPRAR
+Antes de ativar, dá para instalar e testar o programa em modo de demonstração, sem limite de tempo, com 1 carro completo: manutenções, documentos, abastecimentos, histórico e tudo o mais liberado nele. Ao ativar, você cadastra quantos carros quiser e nada do que já anotou se perde.
 
 DÚVIDAS
 Pergunte aqui no anúncio antes de comprar. Depois da compra, fale com a gente pelas mensagens do pedido.
