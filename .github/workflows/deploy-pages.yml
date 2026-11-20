@@ -40,7 +40,7 @@ jobs:
           python3 scripts/sitemap.py _site
           # Páginas e os versao.json que os programas instalados consultam (não podem mudar de lugar)
           for f in CNAME robots.txt sitemap.xml index.html css/produto.css js/site-config.js mywork/index.html minhagaragem/index.html \
-                   mywork/versao.json mywork/2026/versao.json mywork/2027/versao.json meuscarros/2027/versao.json meuscarros/index.html; do
+                   mywork/2027/versao.json minhagaragem/2027/versao.json; do
             test -f "_site/$f" || { echo "Falta $f"; exit 1; }
           done
           ls -R _site | head -50

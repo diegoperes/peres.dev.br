@@ -35,15 +35,13 @@ e os arquivos do git, e confere se as páginas e os `versao.json` estão lá.
 - `robots.txt`: fixo na raiz.
 - Para ver o sitemap localmente: `python3 scripts/sitemap.py`.
 
-**Não mude de lugar** os `versao.json` (`mywork/versao.json`, `mywork/<edição>/versao.json`,
-`minhagaragem/<edição>/versao.json`): os programas instalados consultam esses endereços, e o
+**Não mude de lugar** os `versao.json` (`mywork/<edição>/versao.json`, `minhagaragem/<edição>/versao.json`): os programas instalados consultam esses endereços, e o
 `scripts/publicar-versao.sh` do MyWork grava neles. Os endereços `/mywork/` e `/minhagaragem/` também ficam: os
 programas abrem essas páginas no Sobre e no aviso de versão nova.
 
 ## Página principal
 
-`index.html` e `css/home.css`. Links antigos com âncora (`www.peres.dev.br/#baixar`, de quando a raiz abria o
-MyWork) vão para a seção certa do MyWork. Ícone e imagem de compartilhamento: `design/home/gerar.sh`.
+`index.html` e `css/home.css`. Ícone e imagem de compartilhamento: `design/home/gerar.sh`.
 
 ## MyWork (`mywork/`)
 
@@ -56,13 +54,12 @@ Página em https://www.peres.dev.br/mywork/.
   anúncio dizem isso.
 - `mywork/2027/versao.json`: o MyWork 2027 consulta este arquivo para avisar que saiu versão nova (e, assinado, se
   atualizar sozinho). Cada edição tem o seu, e o programa ignora o de outra edição. Quem grava é o
-  `scripts/publicar-versao.sh` do MyWork, depois de subir os instaladores. `mywork/2026/versao.json` e
-  `mywork/versao.json` ficam para quem instalou as versões de teste de antes (2026 e sem edição).
+  `scripts/publicar-versao.sh` do MyWork, depois de subir os instaladores.
 - Instaladores: os botões de download apontam para
   `https://github.com/diegoperes/peres.dev.br/releases/latest/download/<arquivo>`, com os nomes da edição:
   `MyWork-2027-Windows.exe`, `MyWork-2027-Mac-AppleSilicon.dmg`, `MyWork-2027-Mac-Intel.dmg` e
   `MyWork-2027-Android.apk`. Cada versão é um Release `mywork-2027-v<versão>` com esses arquivos, publicado como
-  *latest*. O botão do Android fica apagado até o `mywork/2027/versao.json` trazer o sistema `android`, para não levar
+  *latest*; a publicação deixa só os 5 Releases mais novos de cada produto e edição. O botão do Android fica apagado até o `mywork/2027/versao.json` trazer o sistema `android`, para não levar
   a um arquivo que ainda não existe. Quando sair o MyWork 2028, troque os botões pelos nomes da 2028.
 
 ## Minha Garagem (`minhagaragem/`)
