@@ -1,28 +1,28 @@
 {
   "edicao": "2027",
-  "versao": "26.11.19.2",
+  "versao": "26.11.20.4",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.19.2/MyWork-2027-Android.apk",
-      "sha256": "cff99246be919b5688a987cbe35f0ec34166d1eabf2c9b8a6c8d42dace404cfc"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Android.apk",
+      "sha256": "aed1a20c56fa1ac0386f9f10b6f187b3e4f4acd3c3ab228f9648f3d6ca85e6d8"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.19.2/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "d77768a46fcabc4f89c87ed5cea5ee8a5a1d3d11ad29874d1f233cebf5811bbc"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "a09e82704bb0c2bc5f3c244b7fb29081de1f6235d79d53b46fbcb73078508a80"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.19.2/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "20c32e608368b712ab614d5a202a432a5b6602d7c231e458c008046c1a9cb99d"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "ba946a86c17bad990b0a08996fd4f0776e17995b214481c64d570ea50ec875c0"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.19.2/MyWork-2027-Windows.exe",
-      "sha256": "b86a79aa37474fedb739fd0c256db6d960e760cc9be04109df1f4031f963e1ce"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Windows.exe",
+      "sha256": "16ad714f0920f8622bf1ac67bbc1a5fdc7efc70da077a86cc47e7ded2a25baa4"
     }
   ],
-  "assinatura": "cmDO1k4ei0Ryr4AXjlKoiLmzJmjXrSWbD_IkNOiN0iNzVBAeuZn0tM1ZXrsJIuOoYnTeKkddRC_1f3JLObUzCA"
+  "assinatura": "wqG4uYvHKWRXlE0JETmXqP2IinZlE8TasSWqd4RWNsK7H_hkWDCCVFx0SnFYn69vggu2MR77i7qWk-8yerchBQ"
 }
