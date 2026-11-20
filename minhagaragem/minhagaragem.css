@@ -1,0 +1,102 @@
+/* Página da Minha Garagem: usa ../css/style.css e ../css/produto.css (mesmo molde do MyWork) e troca o destaque
+   pelo laranja da Minha Garagem. */
+.minhagaragem {
+  --accent: #fb8a3c;
+  --accent-contrast: #1a1206;
+  --accent-soft: rgba(251, 138, 60, 0.13);
+}
+
+.minhagaragem .mw-hero {
+  background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(251, 138, 60, 0.16), transparent 70%);
+}
+
+.baixar__breve {
+  text-align: center;
+  color: var(--text-muted);
+  margin: 1rem 0 0;
+}
+
+/* Para quem é */
+.para-quem {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.para-quem__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.para-quem__grid article {
+  padding: 1.25rem 1.4rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+}
+
+.para-quem__grid h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+
+.para-quem__grid p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* MyWork: para quem também trabalha com carro */
+.irmao {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+}
+
+.irmao img {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+}
+
+.irmao h2 {
+  text-align: left;
+  font-size: 1.25rem;
+  margin: 0 0 0.25rem;
+}
+
+.irmao p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.irmao .btn--ghost {
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .irmao {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .irmao img {
+    margin: 0 auto;
+  }
+
+  .irmao h2 {
+    text-align: center;
+  }
+}
+
+/* Botões escondidos (Comprar sem link): o display dos .btn não pode vencer o hidden */
+[hidden] {
+  display: none !important;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="app.css">
+<style>
+  .grade { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; align-items: start; }
+  .coluna { display: grid; gap: 14px; }
+  .chegando > div { display: flex; justify-content: space-between; gap: 8px; padding: 3px 0; }
+  .chegando .medio { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+  .chegando .dica { white-space: nowrap; }
+</style>
+</head>
+<body data-ativo="carros">
+<div class="app">
+  <nav class="lateral"></nav>
+  <div class="principal">
+    <div class="conteudo">
+      <div class="topo">
+        <span class="btn">‹ Voltar</span>
+        <div>
+          <div class="titulo"><svg viewBox="0 0 16 16"><path d="M3.2 3.2 2 7H1v4.5h1.5V13h2v-1.5h7V13h2v-1.5H15V7h-1l-1.2-3.8zM4.3 4.7h7.4l.8 2.3h-9zM4 8.3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm8 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>Opala 1979 (CXR4F17)</div>
+          <div class="subtitulo">Chevrolet Opala Comodoro 4.1 · 1979/1980 · Preto</div>
+        </div>
+      </div>
+      <div class="segmentado"><span class="ativo">Resumo</span><span>Manutenções</span><span>Histórico</span><span>Abastecimentos</span><span>Documentos</span><span>Financiamento</span><span>Dados do veículo</span></div>
+
+      <div class="grade">
+        <div class="cartao">
+          <div class="h2">Quanto já custou</div>
+          <div class="linhas">
+            <div><span class="suave">Compra</span><span>R$ 52.000,00</span></div>
+            <div><span class="suave">Serviços e revisões</span><span>R$ 6.290,00</span></div>
+            <div><span class="suave">Peças e acessórios</span><span>R$ 4.320,00</span></div>
+            <div><span class="suave">Documentos e seguro</span><span>R$ 2.140,00</span></div>
+            <div><span class="suave">Estética e outros</span><span>R$ 980,00</span></div>
+            <div><span class="suave">Combustível</span><span>R$ 3.210,00</span></div>
+            <div class="total"><span>Total investido</span><span>R$ 68.940,00</span></div>
+          </div>
+          <p class="dica" style="margin:10px 0 0">Os gastos anotados aqui também entram no caixa do Financeiro.</p>
+        </div>
+        <div class="coluna">
+          <div class="cartao">
+            <div class="h2">Uso</div>
+            <div class="linhas">
+              <div><span class="suave">Km atual</span><span>87.450 km</span></div>
+              <div><span class="suave">Rodados desde a compra</span><span>3.450 km</span></div>
+              <div><span class="suave">Consumo médio</span><span>6,8 km/l</span></div>
+              <div><span class="suave">Litros abastecidos</span><span>507,4 l</span></div>
+              <div><span class="suave">Custo por km (sem a compra)</span><span>R$ 4,91</span></div>
+            </div>
+            <div style="display:flex;gap:8px;margin-top:10px"><span class="btn">+ Abastecimento</span><span class="btn">+ Serviço ou gasto</span></div>
+          </div>
+          <div class="cartao">
+            <div class="h2">Manutenção chegando</div>
+            <div class="chegando">
+              <div><span class="medio">Troca de óleo e filtro de óleo</span><span class="dica erro">faltam 320 km · vence em 28 dias</span></div>
+            </div>
+            <div class="link" style="margin-top:6px">ver as manutenções</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="status"></div>
+  </div>
+</div>
+<script src="lateral.js"></script>
+</body>
+</html>

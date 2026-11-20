@@ -78,7 +78,7 @@
   --cor-suave: rgba(251, 138, 60, 0.13);
 }
 
-/* Meus Carros com o print do outro lado, alternando */
+/* Minha Garagem com o print do outro lado, alternando */
 .produto--carros .produto__print {
   order: 2;
 }

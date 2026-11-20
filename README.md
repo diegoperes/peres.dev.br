@@ -11,7 +11,7 @@ js/site-config.js     e-mail de suporte (vazio no git; o workflow preenche na pu
 robots.txt            libera o rastreamento e aponta para o sitemap
 img/                  ícone e imagem de compartilhamento da página principal
 mywork/               página do MyWork, prints (img/) e versao.json de cada edição
-meuscarros/           página do Meus Carros, prints (img/) e versao.json de cada edição
+minhagaragem/           página da Minha Garagem, prints (img/) e versao.json de cada edição
 
 anuncios/             fora do site: o que vai para o Mercado Livre (imagens, título e descrição de cada produto)
 scripts/sitemap.py    fora do site: gera o sitemap.xml na publicação
@@ -19,7 +19,7 @@ design/               fora do site: HTML de onde saem as imagens (anúncios, pri
   comum/              fontes Inter e o estilo das imagens de anúncio
   home/               ícone e imagem de compartilhamento da página principal
   mywork/             imagem 07 do anúncio do MyWork
-  meuscarros/         telas do programa recriadas em HTML e as 9 imagens do anúncio
+  minhagaragem/         telas do programa recriadas em HTML e as 9 imagens do anúncio
 ```
 
 O workflow (`.github/workflows/deploy-pages.yml`) publica tudo, menos `anuncios/`, `design/`, `scripts/`, o README
@@ -36,8 +36,8 @@ e os arquivos do git, e confere se as páginas e os `versao.json` estão lá.
 - Para ver o sitemap localmente: `python3 scripts/sitemap.py`.
 
 **Não mude de lugar** os `versao.json` (`mywork/versao.json`, `mywork/<edição>/versao.json`,
-`meuscarros/<edição>/versao.json`): os programas instalados consultam esses endereços, e o
-`scripts/publicar-versao.sh` do MyWork grava neles. Os endereços `/mywork/` e `/meuscarros/` também ficam: os
+`minhagaragem/<edição>/versao.json`): os programas instalados consultam esses endereços, e o
+`scripts/publicar-versao.sh` do MyWork grava neles. Os endereços `/mywork/` e `/minhagaragem/` também ficam: os
 programas abrem essas páginas no Sobre e no aviso de versão nova.
 
 ## Página principal
@@ -65,25 +65,25 @@ Página em https://www.peres.dev.br/mywork/.
   *latest*. O botão do Android fica apagado até o `mywork/2027/versao.json` trazer o sistema `android`, para não levar
   a um arquivo que ainda não existe. Quando sair o MyWork 2028, troque os botões pelos nomes da 2028.
 
-## Meus Carros (`meuscarros/`)
+## Minha Garagem (`minhagaragem/`)
 
-Página em https://www.peres.dev.br/meuscarros/. O Meus Carros 2027 é o ramo "Meus carros" do MyWork vendido à parte,
-gerado do mesmo código com `PRODUTO=MeusCarros` (veja o README do MyWork).
+Página em https://www.peres.dev.br/minhagaragem/. A Minha Garagem 2027 é o ramo "Meus carros" do MyWork vendido à parte,
+gerado do mesmo código com `PRODUTO=MinhaGaragem` (veja o README do MyWork).
 
-- `meuscarros/index.html` e `meuscarros/meuscarros.css`: página (usa `css/style.css` e `css/produto.css`, com o
+- `minhagaragem/index.html` e `minhagaragem/minhagaragem.css`: página (usa `css/style.css` e `css/produto.css`, com o
   destaque laranja). Procure por `EDITAR`: o link do anúncio no Mercado Livre (se ficar vazio, os botões Comprar
   somem).
-- `meuscarros/img/`: prints, imagem de compartilhar e ícones. Saem de `design/meuscarros/gerar.sh` (não edite à mão).
-- `meuscarros/2027/versao.json`: gravado por `PRODUTO=MeusCarros scripts/publicar-versao.sh`. O Meus Carros sobe sem
+- `minhagaragem/img/`: prints, imagem de compartilhar e ícones. Saem de `design/minhagaragem/gerar.sh` (não edite à mão).
+- `minhagaragem/2027/versao.json`: gravado por `PRODUTO=MinhaGaragem scripts/publicar-versao.sh`. A Minha Garagem sobe sem
   *latest* no GitHub (o *latest* é do MyWork), então os botões de download leem os endereços deste arquivo. Sistema
   sem arquivo na versão publicada (por exemplo, o APK) fica com o botão apagado.
 
 ## Anúncios (`anuncios/`) e imagens (`design/`)
 
-- `anuncios/mywork/` e `anuncios/meuscarros/`: imagens 1200 x 1200 na ordem (a 01 é a capa), `titulo.txt` e
+- `anuncios/mywork/` e `anuncios/minhagaragem/`: imagens 1200 x 1200 na ordem (a 01 é a capa), `titulo.txt` e
   `descricao.txt`. Veja `anuncios/LEIA-ME.txt`.
-- `design/meuscarros/gerar.sh`: gera as telas recriadas, as 9 imagens do anúncio do Meus Carros e os prints e ícones
-  de `meuscarros/img/` (`gerar.sh telas` gera só as telas).
+- `design/minhagaragem/gerar.sh`: gera as telas recriadas, as 9 imagens do anúncio da Minha Garagem e os prints e ícones
+  de `minhagaragem/img/` (`gerar.sh telas` gera só as telas).
 - `design/mywork/gerar.sh`: gera a imagem 07 do anúncio do MyWork. As outras imagens do MyWork são prints editados e
   não têm HTML.
 - `design/home/gerar.sh`: ícone e imagem de compartilhamento da página principal.

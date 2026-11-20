@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="app.css">
+<style>
+  .tabela .cab, .tabela .lin { grid-template-columns: 2.2fr 96px 1.1fr 104px 76px; }
+  .tabela .lin { padding-block: 10px; }
+  .tabela .lin.sel { background: #f2f7ff; }
+  .edicao { margin-top: 14px; }
+  .edicao .campos { grid-template-columns: 1.3fr 1.5fr 110px 120px; }
+  .botoes { display: flex; gap: 8px; align-items: center; margin-top: 12px; }
+  .botoes .dica { margin-left: 4px; }
+</style>
+</head>
+<body data-ativo="carros">
+<div class="app">
+  <nav class="lateral"></nav>
+  <div class="principal">
+    <div class="conteudo">
+      <div class="topo">
+        <span class="btn">‹ Voltar</span>
+        <div>
+          <div class="titulo"><svg viewBox="0 0 16 16"><path d="M3.2 3.2 2 7H1v4.5h1.5V13h2v-1.5h7V13h2v-1.5H15V7h-1l-1.2-3.8zM4.3 4.7h7.4l.8 2.3h-9zM4 8.3a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm8 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>Carro do dia a dia (RKT8J42)</div>
+          <div class="subtitulo">Toyota Corolla XEi 2.0 · 2021/2022 · Prata</div>
+        </div>
+        <div class="direita"><span class="btn primario">+ Vencimento</span></div>
+      </div>
+      <div class="segmentado"><span>Resumo</span><span>Manutenções</span><span>Histórico</span><span>Abastecimentos</span><span class="ativo">Documentos</span><span>Financiamento</span><span>Dados do veículo</span></div>
+
+      <div class="cartao tabela">
+        <div style="padding:12px 14px 10px">
+          <div class="h2" style="margin-bottom:4px">Vencimentos do veículo</div>
+          <div class="dica">IPVA, licenciamento, seguro e o que mais vencer: o Início avisa 30 dias antes.</div>
+        </div>
+        <div class="cab"><span>O QUE É</span><span>VENCE EM</span><span>AVISO</span><span class="num">VALOR</span><span>REPETE</span></div>
+        <div class="lin sel"><span class="medio">Seguro · Porto Seguro</span><span>10/12/2026</span><span class="dica erro medio">vence em 21 dias</span><span class="num">R$ 3.480,00</span><span class="suave">todo ano</span></div>
+        <div class="lin"><span class="medio">IPVA · cota única</span><span>15/01/2027</span><span></span><span class="num">R$ 4.215,60</span><span class="suave">todo ano</span></div>
+        <div class="lin"><span class="medio">Licenciamento</span><span>31/07/2027</span><span></span><span class="num">R$ 160,22</span><span class="suave">todo ano</span></div>
+        <div class="lin"><span class="medio">Rastreador</span><span>05/03/2027</span><span></span><span class="num">R$ 590,00</span><span class="suave">todo ano</span></div>
+      </div>
+
+      <div class="cartao edicao">
+        <div class="h2">Seguro · Porto Seguro</div>
+        <div class="campos">
+          <div><div class="rotulo">Pago em *</div><div class="caixa">19/11/2026</div></div>
+          <div><div class="rotulo">Valor pago (R$)</div><div class="caixa dir">3.480,00</div></div>
+        </div>
+        <div class="botoes"><span class="btn primario">Paguei</span><span class="btn">Cancelar</span><span class="dica">O valor entra no histórico do veículo e o vencimento passa para o ano que vem.</span></div>
+      </div>
+    </div>
+    <div class="status"></div>
+  </div>
+</div>
+<script src="lateral.js"></script>
+</body>
+</html>

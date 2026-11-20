@@ -1,5 +1,5 @@
-/* Páginas dos produtos (MyWork e Meus Carros): molde comum por cima do css/style.css, com o destaque azul do
-   MyWork. O Meus Carros troca as cores no meuscarros/meuscarros.css. */
+/* Páginas dos produtos (MyWork e Minha Garagem): molde comum por cima do css/style.css, com o destaque azul do
+   MyWork. A Minha Garagem troca as cores no minhagaragem/minhagaragem.css. */
 .mywork {
   --accent: #4f8ff7;
   --accent-contrast: #ffffff;
