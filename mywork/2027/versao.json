@@ -1,28 +1,29 @@
 {
+  "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.20.4",
+  "versao": "26.11.20.6",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Android.apk",
-      "sha256": "aed1a20c56fa1ac0386f9f10b6f187b3e4f4acd3c3ab228f9648f3d6ca85e6d8"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Android.apk",
+      "sha256": "84c5d02afdb0db4041f5416b83e277a97654afd030080b9a83e9a0941ee6c8a1"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "a09e82704bb0c2bc5f3c244b7fb29081de1f6235d79d53b46fbcb73078508a80"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "276ae0e5bbdc04892af7dc1a66af624785b5c7331a99f5518232652959fc1e9f"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "ba946a86c17bad990b0a08996fd4f0776e17995b214481c64d570ea50ec875c0"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "aff3af4e11db9247364faa030a5552b4193ef0d730d4f6507f92bad9152051a8"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.4/MyWork-2027-Windows.exe",
-      "sha256": "16ad714f0920f8622bf1ac67bbc1a5fdc7efc70da077a86cc47e7ded2a25baa4"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Windows.exe",
+      "sha256": "03231a4ffcf4c1450ef0e027b70a0daa3756bbef7b3aa1936e8ad3709e8b6474"
     }
   ],
-  "assinatura": "wqG4uYvHKWRXlE0JETmXqP2IinZlE8TasSWqd4RWNsK7H_hkWDCCVFx0SnFYn69vggu2MR77i7qWk-8yerchBQ"
+  "assinatura": "9bCyTeXhPaD3MAclptRSUzoDzQptM5cBsVFT9oh4wWPBpGBYz3rGm9mKsd7ObXYzTH1C0uAPdDAfgiDkx5iyAg"
 }
