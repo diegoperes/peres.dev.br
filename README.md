@@ -19,7 +19,7 @@ design/               fora do site: HTML de onde saem as imagens (anúncios, pri
   comum/              fontes Inter e o estilo das imagens de anúncio
   home/               ícone e imagem de compartilhamento da página principal
   mywork/             imagem 07 do anúncio do MyWork
-  minhagaragem/         telas do programa recriadas em HTML e as 9 imagens do anúncio
+  minhagaragem/         telas do programa recriadas em HTML e as 11 imagens do anúncio
 ```
 
 O workflow (`.github/workflows/deploy-pages.yml`) publica tudo, menos `anuncios/`, `design/`, `scripts/`, o README
@@ -49,7 +49,7 @@ Página em https://www.peres.dev.br/mywork/.
 
 - `mywork/index.html`: página (usa `css/style.css` e `css/produto.css`). Procure por `EDITAR`.
 - `mywork/img/`: prints e ícone.
-- O MyWork é vendido por edição anual. Foi lançado direto na edição 2027 (a 2026 não chegou a ser vendida); o
+- O MyWork é vendido por edição anual. A edição atual é a 2027; o
   MyWork 2028 será uma compra nova. A compra inclui só as atualizações de correção e ajuste da edição; a página e o
   anúncio dizem isso.
 - `mywork/2027/versao.json`: o MyWork 2027 consulta este arquivo para avisar que saiu versão nova (e, assinado, se
@@ -79,7 +79,7 @@ gerado do mesmo código com `PRODUTO=MinhaGaragem` (veja o README do MyWork).
 
 - `anuncios/mywork/` e `anuncios/minhagaragem/`: imagens 1200 x 1200 na ordem (a 01 é a capa), `titulo.txt` e
   `descricao.txt`. Veja `anuncios/LEIA-ME.txt`.
-- `design/minhagaragem/gerar.sh`: gera as telas recriadas, as 9 imagens do anúncio da Minha Garagem e os prints e ícones
+- `design/minhagaragem/gerar.sh`: gera as telas recriadas, as 11 imagens do anúncio da Minha Garagem e os prints e ícones
   de `minhagaragem/img/` (`gerar.sh telas` gera só as telas).
 - `design/mywork/gerar.sh`: gera a imagem 07 do anúncio do MyWork. As outras imagens do MyWork são prints editados e
   não têm HTML.

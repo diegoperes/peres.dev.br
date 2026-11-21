@@ -1,7 +1,5 @@
 // Menu lateral e barra de status da Minha Garagem 2027, iguais em todas as telas. Uso: <body data-ativo="carros">.
 // Itens do menu do ramo "Meus carros" (OS, equipamentos, vendas, produtos e MEI desligados), na ordem do programa.
-// Peças/ferramentas (F5) vem logo depois de Meus carros, desde a versão de 18/11/2026.
-// Sem Análises desde 19/11/2026 (a Minha Garagem não tem finanças de empresa): Relatórios é F6.
 (function () {
   const ic = {
     inicio: 'M8 1.5 1 7.2V15h5v-4.5h4V15h5V7.2z',
