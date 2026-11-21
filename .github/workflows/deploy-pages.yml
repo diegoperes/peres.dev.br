@@ -68,6 +68,11 @@ jobs:
         with:
           path: _site
 
+      # A API às vezes demora a listar o artefato recém-enviado e o deploy-pages falha com
+      # "No artifacts named github-pages were found". Uns segundos de espera evitam a corrida.
+      - name: Wait for artifact to be listed
+        run: sleep 15
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
