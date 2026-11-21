@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.20.8",
+  "versao": "26.11.21.1",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Android.apk",
-      "sha256": "23aeabee8ecd0f6adb7ccf411b05d3dcd4966b23f1f65c4e96b03f982f51fa83"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.1/MyWork-2027-Android.apk",
+      "sha256": "07ac4a9ab7a07c44697a1dc6297b67a63e96cda60fa23817c2c1ab283f69c551"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "87a2dc78beb721f1fd16d9b28fa632e40328877cbc5a7892f84ecc47262a6d99"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.1/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "8e1bfd18b4b47099c0592f5ec13566dcb30e87296d7c380906fc80af8c95a2f5"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "3dae1ea20192bc87258bbfd5604beaedb8528fc5cea221879a08ae195b0617d9"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.1/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "61df4bc4eefd7162a69a676bd0903638ab280fa4777b1eee1bb9b7ce10e6340a"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Windows.exe",
-      "sha256": "a03b8328b3149deec4b0a4ebc96f892d8c1354f09c8dc51998b163f4c36f2e7c"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.1/MyWork-2027-Windows.exe",
+      "sha256": "b341b0ab665250e4177b735ec8b12cc878f78a6ce32fb4a0acd396a7615d2684"
     }
   ],
-  "assinatura": "_lDfcL7OTeMOfWh5O4z9Jp7vn7QhaAwOAIA6WKMge6ezPppUpMl_86sIEbR4pcLvuS1Zk62XqkN2lS_o1oxhCg"
+  "assinatura": "d7jemKsJIhEGZCj8pM0igReiFUL6oZSG5Wi6kSSFZC1PaOyrDDvSXeDhwAxp6Zp2SjwHTHKxkidX3V4kln2pDA"
 }
