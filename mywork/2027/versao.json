@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.20.7",
+  "versao": "26.11.20.8",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Android.apk",
-      "sha256": "2dcbd0a8ef31a507d0052f19844d0e17ee41097f85cb13292c1d70d507cee387"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Android.apk",
+      "sha256": "23aeabee8ecd0f6adb7ccf411b05d3dcd4966b23f1f65c4e96b03f982f51fa83"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "29a3a4215b8d3472b6bd14846b593814d8a0ea8d274c266adc2d8c5300e09056"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "87a2dc78beb721f1fd16d9b28fa632e40328877cbc5a7892f84ecc47262a6d99"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "7dac2fa93d4de1479582feccd6cbd1ddfdb69b31821661585a2dccd128853c93"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "3dae1ea20192bc87258bbfd5604beaedb8528fc5cea221879a08ae195b0617d9"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Windows.exe",
-      "sha256": "2f61d8250afd5b01ae3a3519d7b94a56472c8707e9319a8d75eba53e3f674af6"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.8/MyWork-2027-Windows.exe",
+      "sha256": "a03b8328b3149deec4b0a4ebc96f892d8c1354f09c8dc51998b163f4c36f2e7c"
     }
   ],
-  "assinatura": "-q8J8xqzrieCvwrvlxbHyMTYwnNI0FZomfG2agdn0qE51cCVDzVFrv-06WHgJE50O-O9mAmO1pMJUgvf0drVBQ"
+  "assinatura": "_lDfcL7OTeMOfWh5O4z9Jp7vn7QhaAwOAIA6WKMge6ezPppUpMl_86sIEbR4pcLvuS1Zk62XqkN2lS_o1oxhCg"
 }
