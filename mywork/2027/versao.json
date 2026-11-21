@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.20.6",
+  "versao": "26.11.20.7",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Android.apk",
-      "sha256": "84c5d02afdb0db4041f5416b83e277a97654afd030080b9a83e9a0941ee6c8a1"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Android.apk",
+      "sha256": "2dcbd0a8ef31a507d0052f19844d0e17ee41097f85cb13292c1d70d507cee387"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "276ae0e5bbdc04892af7dc1a66af624785b5c7331a99f5518232652959fc1e9f"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "29a3a4215b8d3472b6bd14846b593814d8a0ea8d274c266adc2d8c5300e09056"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "aff3af4e11db9247364faa030a5552b4193ef0d730d4f6507f92bad9152051a8"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "7dac2fa93d4de1479582feccd6cbd1ddfdb69b31821661585a2dccd128853c93"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.6/MyWork-2027-Windows.exe",
-      "sha256": "03231a4ffcf4c1450ef0e027b70a0daa3756bbef7b3aa1936e8ad3709e8b6474"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.20.7/MyWork-2027-Windows.exe",
+      "sha256": "2f61d8250afd5b01ae3a3519d7b94a56472c8707e9319a8d75eba53e3f674af6"
     }
   ],
-  "assinatura": "9bCyTeXhPaD3MAclptRSUzoDzQptM5cBsVFT9oh4wWPBpGBYz3rGm9mKsd7ObXYzTH1C0uAPdDAfgiDkx5iyAg"
+  "assinatura": "-q8J8xqzrieCvwrvlxbHyMTYwnNI0FZomfG2agdn0qE51cCVDzVFrv-06WHgJE50O-O9mAmO1pMJUgvf0drVBQ"
 }
