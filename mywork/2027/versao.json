@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.22.5",
+  "versao": "26.11.22.6",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Android.apk",
-      "sha256": "22f9cd1b8ff213795ca308ee9db2674adb5e1c5604a087a0d39a7e1b04c3ec8e"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.6/MyWork-2027-Android.apk",
+      "sha256": "d2a7a6151f76e210d09e6b1a47d5120bd1fd63f8c825ecb428b7067a499b6a57"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "0f2ccd0087e2e48760acd9ad074847e3ac319c921e84b84128088d6a4ee2d277"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.6/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "3fb427554b08cf275decf1cd7ae6a58c64f6453812732d36e74c906ecec5a629"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "387239b3fd98e3ecc5ba035bb78f381bc1e6ecadb6c1d51797b48c6af64a13d9"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.6/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "1b0e04bbba102b2ee6513a1e29650783a7290a026e9dec0262e7c957f5d9074a"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Windows.exe",
-      "sha256": "47b3d628ead2a1e87018adaddd97f66d28c59c965e3a60c2cc0f8235c5f06e41"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.6/MyWork-2027-Windows.exe",
+      "sha256": "f84712c5467b0411dada2a99e1ee5ea4ded18a9fc262b071e901bee123ce5e59"
     }
   ],
-  "assinatura": "U8hjQDRgpDM7h6D5pJTHjpxLgFS1OEeb3Eyq-VRck9q0Y-7tyPrwsqqiJhtEQkuiYjuSE5IcFI_MOw_lxM0bAg"
+  "assinatura": "WyW5ux9helimQFL4_qYTLFLRMzjNm2sAx7p1wqZb2yMwHzrOwHmf_QPrN8aa3ftN9rSf6-G7VqfOhnhj2uAXAg"
 }
