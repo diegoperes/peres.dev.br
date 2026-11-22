@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.22.3",
+  "versao": "26.11.22.5",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Android.apk",
-      "sha256": "7283c6ba4bf36355e7fef1f5e46528d2d2e5549501cb96f7e46c35b8d40c1348"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Android.apk",
+      "sha256": "22f9cd1b8ff213795ca308ee9db2674adb5e1c5604a087a0d39a7e1b04c3ec8e"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "868719cf6fb6c900bc35b167d600b6cd8826d43ecc5ab0d3dc10f914f2e99134"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "0f2ccd0087e2e48760acd9ad074847e3ac319c921e84b84128088d6a4ee2d277"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "81acaf3c76293d23dc4e6e02f34937dc292454e9f76c34a11339312773410501"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "387239b3fd98e3ecc5ba035bb78f381bc1e6ecadb6c1d51797b48c6af64a13d9"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Windows.exe",
-      "sha256": "e4dd54e0133453ae1594f7eceecf583519d73196cf6f85007f0bd142010f077d"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.5/MyWork-2027-Windows.exe",
+      "sha256": "47b3d628ead2a1e87018adaddd97f66d28c59c965e3a60c2cc0f8235c5f06e41"
     }
   ],
-  "assinatura": "hdqkPwn7NXuvvRe1AwQN8imoRKjtaS7xn-qLSi19sQWCH2lHtDZOh5ecpT37qAdn4UH6K4CXHrbAw53u10TQAw"
+  "assinatura": "U8hjQDRgpDM7h6D5pJTHjpxLgFS1OEeb3Eyq-VRck9q0Y-7tyPrwsqqiJhtEQkuiYjuSE5IcFI_MOw_lxM0bAg"
 }
