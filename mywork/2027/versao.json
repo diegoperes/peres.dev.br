@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.22.2",
+  "versao": "26.11.22.3",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Android.apk",
-      "sha256": "bd4f76850cafe5a0f65dcef63fc4ef974fb6f4494984d3844858ae826d0d1790"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Android.apk",
+      "sha256": "7283c6ba4bf36355e7fef1f5e46528d2d2e5549501cb96f7e46c35b8d40c1348"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "b8554d2224f0ce0dc6503930a1a2576adb8e0dfbcfc1168b5a33cd62fd1bc0c4"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "868719cf6fb6c900bc35b167d600b6cd8826d43ecc5ab0d3dc10f914f2e99134"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "64420a812f7a903af0209612bcdff08fb34a6a4ae0407ab5e861e00261194d11"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "81acaf3c76293d23dc4e6e02f34937dc292454e9f76c34a11339312773410501"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Windows.exe",
-      "sha256": "ba62c5451d4bf1a88531120ee42f23cc5561ffad440e6a7eeca09d3bbaebe5f8"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.3/MyWork-2027-Windows.exe",
+      "sha256": "e4dd54e0133453ae1594f7eceecf583519d73196cf6f85007f0bd142010f077d"
     }
   ],
-  "assinatura": "_OMmXcpaHyAD1JJJqHI20NIhQ-Cr9ejXUO_Dqrv8Q1QXmAtX_jkmX-zzRda2LVzAmADMefMEWCA7k1ImsY1kCw"
+  "assinatura": "hdqkPwn7NXuvvRe1AwQN8imoRKjtaS7xn-qLSi19sQWCH2lHtDZOh5ecpT37qAdn4UH6K4CXHrbAw53u10TQAw"
 }
