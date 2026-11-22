@@ -1,29 +1,29 @@
 {
   "produto": "minhagaragem",
   "edicao": "2027",
-  "versao": "26.11.22.6",
+  "versao": "26.11.22.7",
   "link": "https://www.peres.dev.br/minhagaragem/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.6/MinhaGaragem-2027-Android.apk",
-      "sha256": "81d7dd987d926971f130e9badc8a1bd452832fba6a06a4849cf1b245b629d08e"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.7/MinhaGaragem-2027-Android.apk",
+      "sha256": "919e041878f5b07ed6cf7f714aedcf83a79b6ffa24fa341ee6815ca2d1856537"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.6/MinhaGaragem-2027-Mac-AppleSilicon.dmg",
-      "sha256": "acdbf3db7320c943e727b81327bf79bac4b4fb5dbf403f32316c35914406c667"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.7/MinhaGaragem-2027-Mac-AppleSilicon.dmg",
+      "sha256": "cff4ce8b2a870a8fcabf10e1b7ce92212d258ed12a0f81801fdfa5a38fc45b78"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.6/MinhaGaragem-2027-Mac-Intel.dmg",
-      "sha256": "a40fac6577638435a30104f7aa5a85791fedaaa079abeedabcec978823ac9fd1"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.7/MinhaGaragem-2027-Mac-Intel.dmg",
+      "sha256": "64c294eabba762ecfcbb0eb96e26ab41b6ba5ad33b397d21267d45dec6f3399f"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.6/MinhaGaragem-2027-Windows.exe",
-      "sha256": "1c5fc15e3467fa3a99affcb00e5943990f6a78a8703909706fd7d6c13162465c"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/minhagaragem-2027-v26.11.22.7/MinhaGaragem-2027-Windows.exe",
+      "sha256": "1d5439fcd4e15bf32517bbf633f373c4f952ffde99feb6a35309666153bae07f"
     }
   ],
-  "assinatura": "CA62ZDfCMBprfvu8Ha1cdI1ImGyvL5z_2FY27ubeB_YJkXSsSHrogjjRs3apgWrkORZ6RooaisR_RFXnlMIOAA"
+  "assinatura": "5_4Y-qnQejGj5Gjmf-S8KlmPFAzblw0WUHgxRZ2Iqefbj3XCpHBKznQYvvL0PQ4A04KsO1-NE1U2z5EsW7SlBw"
 }
