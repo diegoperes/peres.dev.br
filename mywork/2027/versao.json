@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.22.1",
+  "versao": "26.11.22.2",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Android.apk",
-      "sha256": "c4a6ad820d21abbb8a7bc434c72cbc7d6f451453db747e104fbb744a96607cbf"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Android.apk",
+      "sha256": "bd4f76850cafe5a0f65dcef63fc4ef974fb6f4494984d3844858ae826d0d1790"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "c586db1da83df1e29de759ad1814fe563f31b13c68cee143a05b5e2e031dff5d"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "b8554d2224f0ce0dc6503930a1a2576adb8e0dfbcfc1168b5a33cd62fd1bc0c4"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "a9dd074d1f72be11d927885f48f45bb2b8822587a1dea673f3e73f9f855608ea"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "64420a812f7a903af0209612bcdff08fb34a6a4ae0407ab5e861e00261194d11"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Windows.exe",
-      "sha256": "973ef2b2e779700e91743a679da59e641a6aa43aa1f6f2f4206d904742b59408"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.2/MyWork-2027-Windows.exe",
+      "sha256": "ba62c5451d4bf1a88531120ee42f23cc5561ffad440e6a7eeca09d3bbaebe5f8"
     }
   ],
-  "assinatura": "s8gDo0CQRbbsDcmvc2hOSKHF0ARdizRPQLyxt-IJfHNXkHSDXjSF0vicTtMTFYfqPmEAW9R-hAKpHe05xhbCCg"
+  "assinatura": "_OMmXcpaHyAD1JJJqHI20NIhQ-Cr9ejXUO_Dqrv8Q1QXmAtX_jkmX-zzRda2LVzAmADMefMEWCA7k1ImsY1kCw"
 }
