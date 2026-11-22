@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.21.2",
+  "versao": "26.11.22.1",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.2/MyWork-2027-Android.apk",
-      "sha256": "dfdfd2d729a6ff6b4ed55e095d48366a2882b135f077ee9a8b59219a7ddb51c7"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Android.apk",
+      "sha256": "c4a6ad820d21abbb8a7bc434c72cbc7d6f451453db747e104fbb744a96607cbf"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.2/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "13beadf172ab99cf6de5283484aa24685aa1861d7e1d564bc57318434cd2af33"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "c586db1da83df1e29de759ad1814fe563f31b13c68cee143a05b5e2e031dff5d"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.2/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "489ec20daf79277e22f6dff80415376ed3b389436a4a2366167948e10518afce"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "a9dd074d1f72be11d927885f48f45bb2b8822587a1dea673f3e73f9f855608ea"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.21.2/MyWork-2027-Windows.exe",
-      "sha256": "0f1df7806978cd8676c48269d1f30708798dd6ac033920e64a8a8e335a6e22d3"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.22.1/MyWork-2027-Windows.exe",
+      "sha256": "973ef2b2e779700e91743a679da59e641a6aa43aa1f6f2f4206d904742b59408"
     }
   ],
-  "assinatura": "j0yhRZ2-JEku3xj3-dwY1XA_Ge3iEjW9VlHIsZ3DeZqJ-hDN4ybyAWy95zTy7zr3MKuMD0sCa2trzeB2RtoaBA"
+  "assinatura": "s8gDo0CQRbbsDcmvc2hOSKHF0ARdizRPQLyxt-IJfHNXkHSDXjSF0vicTtMTFYfqPmEAW9R-hAKpHe05xhbCCg"
 }
