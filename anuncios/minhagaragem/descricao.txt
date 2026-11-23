@@ -1,6 +1,6 @@
 MINHA GARAGEM 2027: SEUS VEÍCULOS EM DIA, NUM SÓ LUGAR
 
-Programa para quem cuida dos próprios veículos, do carro do dia a dia aos antigos e de coleção. Anote abastecimentos, serviços, peças e documentos: o programa avisa a troca de óleo, correias e fluidos pelo km ou pela data, lembra o IPVA, o licenciamento, o seguro e a CNH antes de vencer, calcula o consumo e mostra quanto cada veículo gastou no mês e no ano. No computador ou no celular Android, sem mensalidade.
+Programa para quem cuida dos próprios veículos, do carro do dia a dia aos antigos e de coleção. Anote abastecimentos, serviços, peças, documentos e projetos: o programa avisa a troca de óleo, correias e fluidos pelo km ou pela data, lembra o IPVA, o licenciamento, o seguro e a CNH antes de vencer, calcula o consumo e mostra quanto cada veículo gastou no mês e no ano. No computador ou no celular Android, sem mensalidade.
 
 NO COMPUTADOR E NO CELULAR, COM A MESMA CHAVE
 - Windows 10 (versão 1607 ou mais nova) e Windows 11, 64 bits
@@ -22,6 +22,7 @@ MANUTENÇÕES COM AVISO
 - Pelo km, pela data ou pelos dois (o que vencer primeiro)
 - Aviso 500 km ou 30 dias antes, na ficha do veículo e na tela de início
 - Sugestões prontas para ajustar ao manual: óleo, filtros, correias, fluidos, velas, alinhamento e revisão
+- Uso normal ou severo (poeira, trajetos curtos, carga, muito tempo parado): os intervalos se ajustam
 - Para alguns modelos, como o VW Taos, já vem um plano próprio do modelo para você conferir com o manual
 - Anotou o serviço? As manutenções feitas recomeçam a contar sozinhas
 
@@ -32,9 +33,9 @@ LEMBRETE DE IPVA, LICENCIAMENTO, SEGURO E CNH
 - O que repete todo ano já passa o vencimento para o ano seguinte
 
 TELA DE INÍCIO
-- Vencimentos e manutenções chegando, logo ao abrir o programa
-- Quanto cada veículo gastou neste mês e no ano: combustível, serviços, peças, documentos e seguro
-- Contas a pagar dos próximos 7 dias, como as parcelas do financiamento
+- O que vem por aí, logo ao abrir: manutenções, vencimentos e parcelas do financiamento juntos
+- Gasto no mês, no ano, média por mês e custo por km
+- Um cartão para cada veículo, com o gasto mês a mês e a próxima manutenção
 
 PEÇAS E FERRAMENTAS GUARDADAS
 - Anote as peças e ferramentas que você tem: onde estão guardadas, quantas e para qual veículo
@@ -46,7 +47,20 @@ PEÇAS E FERRAMENTAS GUARDADAS
 HISTÓRICO COMPLETO
 - Serviços e revisões com mão de obra e peças (marca, código, quantidade e valor)
 - Peças, acessórios, IPVA, licenciamento, multas, seguro, lavagem e estética
-- Data, km e onde foi feito em cada registro
+- Data, km e quem fez em cada registro
+- Histórico do veículo em PDF, para guardar ou mostrar na hora de vender
+
+OFICINAS, MECÂNICOS E LOJAS
+- Seus prestadores de serviço com tipo de serviço, telefone, WhatsApp com um clique e avaliação em estrelas
+- Ao anotar um gasto, escolha quem fez ou cadastre na hora: nome, tipo de serviço e telefone
+- Na ficha de cada prestador aparecem os serviços que ele já fez nos seus veículos
+
+PROJETOS DO VEÍCULO
+- Para o que leva mais de um passo: restauração, motor, bancos, som, rodas
+- Peças a comprar, já compradas (com a data da compra) ou que você já tem guardadas
+- Etapas feitas por você ou por um prestador, com valor e data
+- Andamento, quanto já gastou e quanto falta para terminar
+- Concluiu? Vai tudo para o histórico do veículo
 
 ABASTECIMENTOS E CONSUMO
 - Litros, valor, combustível e posto
@@ -56,18 +70,13 @@ ABASTECIMENTOS E CONSUMO
 QUANTO CADA VEÍCULO JÁ CUSTOU
 - Compra, serviços, peças e acessórios, documentos e seguro, estética, combustível e juros
 - Total investido, custo por km, consumo médio e, se vendido, quanto sobrou
-- Financiamento: as parcelas viram contas a pagar, com pagas, saldo, próxima e juros
-
-CAIXA E RELATÓRIOS
-- Tudo o que você anota nos veículos entra no caixa
-- Contas a pagar, como as parcelas do financiamento e o seguro
-- Relatórios em PDF ou planilha do Excel
+- Financiamento: pague as parcelas na ficha do veículo e veja as pagas, o saldo, a próxima e os juros; a próxima parcela aparece no Início
 
 SEUS DADOS FICAM COM VOCÊ
 - Tudo fica no seu computador ou celular: nada vai para a internet e ninguém mais tem uma cópia dos seus dados
-- Cópia de segurança automática todo dia e antes de cada atualização, e backup com um clique para pen drive ou nuvem
+- Cópia de segurança automática todo dia e antes de cada atualização, e backup com um clique para pen drive, nuvem ou, no celular, Google Drive e WhatsApp
 - Importante: as cópias automáticas ficam no mesmo aparelho. Guardar uma cópia de segurança num lugar seguro fora dele (pen drive, HD externo ou nuvem) é responsabilidade de quem usa o programa.
-- O programa avisa quando sai versão nova e se atualiza com um clique
+- O programa avisa quando sai versão nova: no computador, atualiza com um clique; no celular, abre a página para baixar
 
 COMO FUNCIONA A COMPRA
 1. Compre por aqui.

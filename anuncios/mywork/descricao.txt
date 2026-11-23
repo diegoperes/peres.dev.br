@@ -51,13 +51,14 @@ RECURSOS PARA CADA PROFISSÃO
 - Personal trainer: avaliações, evolução em gráficos e ficha de treino
 - Motorista de aplicativo: ganho por aplicativo, custo por km e metas
 - Veterinário: carteira de vacinas e aviso das próximas doses
-- Petshop, estética automotiva, lava car e confeitaria com telas próprias
+- Confeitaria: receitas com custo (ingredientes, gás e energia, embalagem, seu tempo e lucro), preço sugerido por unidade, receita dentro de receita (massa e recheio), lista de compras dos ingredientes acabando e baixa no estoque na encomenda entregue ou na venda
+- Petshop, estética automotiva e lava car com telas próprias
 
 SEUS DADOS FICAM COM VOCÊ
 - Tudo fica no seu computador ou celular: nada vai para a internet e ninguém mais tem uma cópia dos seus dados
 - Cópia de segurança automática todo dia e antes de cada atualização
 - Importante: as cópias automáticas ficam no mesmo aparelho. Guardar uma cópia de segurança num lugar seguro fora dele (pen drive, HD externo ou nuvem) é responsabilidade de quem usa o programa.
-- O programa avisa quando sai versão nova e se atualiza com um clique
+- O programa avisa quando sai versão nova: no computador, atualiza com um clique; no celular, abre a página para baixar
 
 COMO FUNCIONA A COMPRA
 1. Compre por aqui.

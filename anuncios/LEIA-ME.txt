@@ -6,5 +6,6 @@ Uma pasta por produto (mywork/ e minhagaragem/), cada uma com:
 - 01, 02, 03... .png: imagens 1200 x 1200, nessa ordem. A 01 é a capa.
 
 De onde saem as imagens (pasta design/, na raiz do projeto):
-- Minha Garagem: todas, de design/minhagaragem/ (design/minhagaragem/gerar.sh). As telas do programa são recriadas em HTML.
-- MyWork: a 07 sai de design/mywork/ (design/mywork/gerar.sh). As outras são prints editados.
+- Telas do programa: são do programa de verdade, fotografadas pelo design/vitrine numa base de exemplo (veja design/vitrine/LEIA-ME.md).
+- Minha Garagem: todas, de design/minhagaragem/ (design/minhagaragem/gerar.sh).
+- MyWork: as 06 a 08 saem de design/mywork/ (design/mywork/gerar.sh). As 01 a 05 são prints editados.

@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 # Gera as imagens da Minha Garagem 2027 a partir destes HTML, com o Chrome sem janela.
-#   1) tela-*.html (1000 x 620, telas do programa) -> telas/*.png, em 2x
+#   1) telas/*.png: telas do programa de verdade (1250 x 775 em 2x; celular 390 x 844), geradas pelo design/vitrine
+#      com dados de exemplo (veja design/vitrine/LEIA-ME.md). Este script não mexe nelas.
 #   2) anuncio-*.html (1200 x 1200) -> anuncios/minhagaragem/NN-*.png, as imagens do anúncio
 #   3) copia para o site: minhagaragem/img/ (prints, imagem de compartilhar e ícones)
 #   O ícone é o icone-marca.png (o ícone definitivo do programa, 512 px); as imagens do anúncio usam ele.
-# Uso: design/minhagaragem/gerar.sh   (ou só as telas: design/minhagaragem/gerar.sh telas)
+# Uso: design/minhagaragem/gerar.sh
 set -euo pipefail
 cd "$(dirname "$0")"
 CHROME="${CHROME:-/Applications/Google Chrome.app/Contents/MacOS/Google Chrome}"
@@ -21,13 +22,6 @@ foto() { # arquivo.html largura altura escala saida.png
 # Ícone: icone-marca.png (512 px) é o ícone definitivo do programa (MyWork, src/.../meus-carros), copiado aqui.
 # O icone.html era o provisório e não é mais usado.
 
-mkdir -p telas
-echo "Telas do programa:"
-for f in tela-*.html; do
-  n="${f#tela-}"; n="${n%.html}"
-  foto "$f" 1000 620 2 "telas/$n.png"
-done
-[ "${1:-}" = telas ] && exit 0
 
 echo "Anúncio:"
 for f in anuncio-*.html; do
@@ -37,9 +31,18 @@ done
 
 echo "Site:"
 mkdir -p "$SITE"
-for n in inicio garagem resumo manutencoes documentos abastecimentos historico pecas; do
-  [ -f "telas/$n.png" ] && cp "telas/$n.png" "$SITE/$n.png" && echo "  $SITE/$n.png"
-done
+# Prints do site: as telas do computador cortadas na proporção da janela (1000 x 620) e com 2000 px de largura.
+python3 - "$SITE" <<'PY'
+import sys
+from PIL import Image
+site = sys.argv[1]
+for n in ['inicio', 'garagem', 'resumo', 'manutencoes', 'documentos', 'abastecimentos', 'gasto', 'projeto', 'pecas']:
+    im = Image.open(f'telas/{n}.png').convert('RGB')
+    w = im.width
+    im = im.crop((0, 0, w, round(w * 620 / 1000))).resize((2000, 1240), Image.LANCZOS)
+    im.save(f'{site}/{n}.png', optimize=True)
+    print(f'  {site}/{n}.png')
+PY
 cp "$ANUNCIO/01-capa.png" "$SITE/compartilhar.png" && echo "  $SITE/compartilhar.png"
 python3 - "$SITE" <<'PY'
 import sys
