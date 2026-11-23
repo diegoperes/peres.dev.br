@@ -89,7 +89,7 @@ O QUE A COMPRA INCLUI
 - A Minha Garagem é um programa separado do MyWork: a chave de um não ativa o outro, e os dois podem ficar instalados no mesmo aparelho
 
 TESTE ANTES DE COMPRAR
-Antes de ativar, dá para instalar e testar o programa em modo de demonstração, sem limite de tempo, com 1 veículo completo: manutenções, documentos, abastecimentos, histórico e tudo o mais liberado nele. Ao ativar, você cadastra quantos veículos quiser e nada do que já anotou se perde.
+Antes de ativar, dá para instalar e testar o programa em modo de demonstração, sem limite de tempo: 1 veículo, com todas as telas abertas, e até 15 registros de cada tipo (serviços e gastos, abastecimentos, documentos, financiamentos, peças e ferramentas). Ao ativar, você cadastra quantos veículos e registros quiser e nada do que já anotou se perde.
 
 DÚVIDAS
 Pergunte aqui no anúncio antes de comprar. Depois da compra, fale com a gente pelas mensagens do pedido.
