@@ -64,6 +64,7 @@ COMO FUNCIONA A COMPRA
 1. Compre por aqui.
 2. Você recebe o link para baixar o programa e a sua chave de ativação do MyWork 2027 pelas mensagens da compra.
 3. Instale no computador ou no celular, digite a chave e pronto. A licença fica vinculada ao seu CPF ou CNPJ.
+4. Privacidade: pedimos só o seu CPF ou CNPJ, usado apenas para gerar a sua chave e para cancelá-la em caso de devolução. Não guardamos em planilha nem passamos para ninguém, e o que você cadastra no programa fica só no seu aparelho. O aviso de privacidade completo está no site do programa.
 
 O QUE A COMPRA INCLUI
 - O MyWork 2027 para Windows, Mac e Android, com as atualizações de correção e ajuste desta edição

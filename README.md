@@ -12,6 +12,7 @@ robots.txt            libera o rastreamento e aponta para o sitemap
 img/                  ícone e imagem de compartilhamento da página principal
 mywork/               página do MyWork, prints (img/) e versao.json de cada edição
 minhagaragem/           página da Minha Garagem, prints (img/) e versao.json de cada edição
+privacidade/          aviso de privacidade (LGPD) dos dois programas; link no rodapé de todas as páginas
 
 anuncios/             fora do site: o que vai para o Mercado Livre (imagens, título e descrição de cada produto)
 scripts/sitemap.py    fora do site: gera o sitemap.xml na publicação

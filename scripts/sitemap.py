@@ -20,6 +20,7 @@ ROTAS = [
     ("/", "1.0", ["index.html", "css/home.css", "css/style.css", "img"]),
     ("/mywork/", "0.9", ["mywork/index.html", "css/produto.css", "css/style.css", "mywork/img"]),
     ("/minhagaragem/", "0.9", ["minhagaragem/index.html", "minhagaragem/minhagaragem.css", "css/produto.css", "css/style.css", "minhagaragem/img"]),
+    ("/privacidade/", "0.3", ["privacidade/index.html", "css/home.css", "css/style.css"]),
 ]
 
 RAIZ = Path(__file__).resolve().parent.parent
