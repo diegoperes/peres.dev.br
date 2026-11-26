@@ -1,29 +1,29 @@
 {
   "produto": "mywork",
   "edicao": "2027",
-  "versao": "26.11.26.2",
+  "versao": "26.11.26.3",
   "link": "https://www.peres.dev.br/mywork/#baixar",
   "arquivos": [
     {
       "sistema": "android",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.2/MyWork-2027-Android.apk",
-      "sha256": "1d31d96b55d53981cc697edb57417f4499f5fbeab727902d91ec076499056836"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.3/MyWork-2027-Android.apk",
+      "sha256": "1ccf5da097fcac9e76779ed2e3b038eb5b0f2ea630fbdbcb503c558d2740ec25"
     },
     {
       "sistema": "osx-arm64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.2/MyWork-2027-Mac-AppleSilicon.dmg",
-      "sha256": "eac518d60df8df904549f9b521b496bba615b3324229124a0cf554c9a8d30791"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.3/MyWork-2027-Mac-AppleSilicon.dmg",
+      "sha256": "ce04e0cbb074367d036a2a4313a0f1d6700d15181c0bae65f380152436a47cb6"
     },
     {
       "sistema": "osx-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.2/MyWork-2027-Mac-Intel.dmg",
-      "sha256": "fd63a388145884b27fc6f57277015f721d86c4a9de75057a8e0760921b031dd1"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.3/MyWork-2027-Mac-Intel.dmg",
+      "sha256": "e0c4016c61cc64e194b8f8f7bb727ec03df8b76ff92d265ac773b3322b8e0f59"
     },
     {
       "sistema": "win-x64",
-      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.2/MyWork-2027-Windows.exe",
-      "sha256": "cab66830169839779b606c80c198b9019852eb75fdcfffd44fbb9d4270056758"
+      "url": "https://github.com/diegoperes/peres.dev.br/releases/download/mywork-2027-v26.11.26.3/MyWork-2027-Windows.exe",
+      "sha256": "695f76f6f95971a3bf84f7a06a49487ff0f2eeb9838700f448d0501620dfe761"
     }
   ],
-  "assinatura": "AU2LmcxZRrI4RrQzaOfCQBQ1054C-4I0WTjGIOGYs2NrV51hQG4POxNwqoknNYSd37lrsYeiETXtUA774qOcCw"
+  "assinatura": "z1QlyGRcoj6FvmW5xXLSWKvJMTcwtaSarRMm_QwSbD5id6FWNY-M_gxxr8d9Uzef0tOSoQTesRHTy0eYsbwRBQ"
 }
