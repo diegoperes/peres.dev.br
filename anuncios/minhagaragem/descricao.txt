@@ -1,6 +1,6 @@
 MINHA GARAGEM 2027: SEUS VEÍCULOS EM DIA, NUM SÓ LUGAR
 
-Programa para quem cuida dos próprios veículos, do carro do dia a dia aos antigos e de coleção. Anote abastecimentos, serviços, peças, documentos e projetos: o programa avisa a troca de óleo, correias e fluidos pelo km ou pela data, lembra o IPVA, o licenciamento, o seguro e a CNH antes de vencer, calcula o consumo e mostra quanto cada veículo gastou no mês e no ano. No computador ou no celular Android, sem mensalidade.
+Programa para quem cuida dos próprios veículos, do carro do dia a dia aos antigos e de coleção. Anote abastecimentos, serviços, peças, impostos, seguro e projetos: o programa avisa a troca de óleo, correias e fluidos pelo km ou pela data, lembra o IPVA, o licenciamento, o seguro e a CNH antes de vencer, calcula o consumo e mostra quanto cada veículo gastou no mês e no ano. No computador ou no celular Android, sem mensalidade.
 
 NO COMPUTADOR E NO CELULAR, COM A MESMA CHAVE
 - Windows 10 (versão 1607 ou mais nova) e Windows 11, 64 bits
@@ -68,7 +68,7 @@ ABASTECIMENTOS E CONSUMO
 - Gasolina, etanol, diesel e GNV
 
 QUANTO CADA VEÍCULO JÁ CUSTOU
-- Compra, serviços, peças e acessórios, documentos e seguro, estética, combustível e juros
+- Compra, serviços, peças e acessórios, impostos e seguro, estética, combustível e juros
 - Total investido, custo por km, consumo médio e, se vendido, quanto sobrou
 - Financiamento: pague as parcelas na ficha do veículo e veja as pagas, o saldo, a próxima e os juros; a próxima parcela aparece no Início
 
@@ -90,7 +90,7 @@ O QUE A COMPRA INCLUI
 - A Minha Garagem é um programa separado do MyWork: a chave de um não ativa o outro, e os dois podem ficar instalados no mesmo aparelho
 
 TESTE ANTES DE COMPRAR
-Antes de ativar, dá para instalar e testar o programa em modo de demonstração, sem limite de tempo: 1 veículo, com todas as telas abertas, e até 15 registros de cada tipo (serviços e gastos, abastecimentos, documentos, financiamentos, peças e ferramentas). Ao ativar, você cadastra quantos veículos e registros quiser e nada do que já anotou se perde.
+Antes de ativar, dá para instalar e testar o programa em modo de demonstração, sem limite de tempo: 1 veículo, com todas as telas abertas, e até 15 registros de cada tipo (serviços e gastos, abastecimentos, impostos e seguro, financiamentos, peças e ferramentas). Ao ativar, você cadastra quantos veículos e registros quiser e nada do que já anotou se perde.
 
 DÚVIDAS
 Pergunte aqui no anúncio antes de comprar. Depois da compra, fale com a gente pelas mensagens do pedido.
